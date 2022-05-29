@@ -1,8 +1,6 @@
 # Spicy Pepl {Knowledge Base}
 
-Welcome to the Spicy Pepl {Knowledge Base}!
-
-This is intended to be a useful collection of resources for developers of all experience levels.
+Welcome to the Spicy Pepl Member Profile!
 
 Please take a look at our [Code of Conduct][code-of-conduct] and be respectful!
 
@@ -33,7 +31,6 @@ Originally authored by @Tessa.
 - <img src="https://a.slack-edge.com/production-standard-emoji-assets/13.0/apple-large/26d4.png" alt=":status--not_hiring_rn:" height="32"> `:status--not_hiring_rn:` not hiring right now
 
 ### General alumni
-
 
 - <img src="https://emoji.slack-edge.com/T0LN8FJEP/coffee_cat/a6a5d24c86b35141.png" alt=":status--open_to_coffee_chats:" height="32"> `:status--open_to_coffee_chats:` open to coffee chats (put location as status text if needed)
 - <img src="https://emoji.slack-edge.com/T0LN8FJEP/existential_screaming/0b8fcfceb10cb981.png" alt=":status--seeking_mentor:" height="32"> `:status--seeking_mentor:` looking for a mentor (specify what kind in status text if needed)
