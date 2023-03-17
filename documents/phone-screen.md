@@ -16,8 +16,8 @@
 ## Questions to Ask Them
 
 - What do you like best about working for this company?
-- expectations 30/60/90
-- feedback and mentoring?
+- Expectations 30/60/90
+- Feedback and mentoring?
 - Team make up? QA/QE, UI/UX?
 - Office location and floor plan?
 - Company culture?
