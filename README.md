@@ -1,6 +1,6 @@
 # KnowledgeBase
 
-A collection of useful resources
+A collection of useful resources. The idea of these documents are to be sort of a graph database, each file is a node representing a topic or idea.
 
 ## License
 
