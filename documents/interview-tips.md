@@ -31,3 +31,7 @@
 2.  Obstacles
 3.  Actions
 4.  Results
+
+##  Guides
+
+- [Ali Spittel](https://twitter.com/ASpittel/status/1214979863683174400)
