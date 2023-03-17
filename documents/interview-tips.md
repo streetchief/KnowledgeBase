@@ -1,4 +1,4 @@
-# Interviewing (Being Interviewed)
+# Interview Tips (Being Interviewed)
 
 ## General
 
