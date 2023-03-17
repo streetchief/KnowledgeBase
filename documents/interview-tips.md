@@ -5,7 +5,6 @@
 - Be specific, not arrogant.
 - Limit details.
 - Focus on yourself, not the team.
-- S.T.A.R. - Situation, Task, Action, Result.
 
 ## Responding
 
