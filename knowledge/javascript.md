@@ -19,3 +19,12 @@
 
 - [npm](https://docs.npmjs.com/)
 - [yarn](https://yarnpkg.com/)
+
+## Interesting Packages
+
+- [bull-board](https://github.com/felixmosh/bull-board) - Queue visualizer for Bull/BullMQ
+- [minimatch](https://github.com/isaacs/minimatch) - A minimal matching utility.
+- [Jazzer.js](https://github.com/CodeIntelligenceTesting/jazzer.js) - a coverage-guided, in-process fuzzer for the Node.js
+- [verror](https://github.com/TritonDataCenter/node-verror) - Rich JavaScript errors.
+- [Nock](https://github.com/nock/nock) - HTTP server mocking and expectations library for Node.js
+- [Yjs](https://github.com/yjs/yjs) - Conflict-free Replicated Data Types (CRDT) implementation that exposes its internal data structure as shared types.
