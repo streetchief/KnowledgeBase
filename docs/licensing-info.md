@@ -1,5 +1,4 @@
-
-                     END OF TERMS AND CONDITIONS
+# GNU Licensing Information 
 
             How to Apply These Terms to Your New Programs
 
