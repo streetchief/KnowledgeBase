@@ -26,6 +26,7 @@
     - [teracopy](https://www.codesector.com/teracopy) - Copy your files faster and more securely
     - [windirstat](https://windirstat.net/) - A disk usage statistics viewer and cleanup tool
     - [winscp](https://winscp.net/eng/index.php) - A popular SFTP client and FTP client
+- [portacle](https://portacle.github.io/) - A complete IDE for Common Lisp
 - [rufus](https://rufus.ie/en/) - Create bootable USB drives the easy way
 - [slack](https://slack.com/) - Chat app
 - [Tor](https://www.torproject.org/) - Browse Privately. Explore Freely.
