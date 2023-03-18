@@ -1,0 +1,21 @@
+# Windows Applications
+
+- [ninite](https://ninite.com/) - Install and Update All Your Programs at Once
+    - [greenshot](https://getgreenshot.org/) - a light-weight screenshot software tool for Windows
+    - [discord](https://discord.com/) - chat app
+    - [sumatrapdf](https://www.sumatrapdfreader.org/free-pdf-reader) - image viewer for Windows supporting: PDF, eBook (epub, mobi), comic book (cbz/cbr), DjVu, XPS, CHM
+    - [libreOffice](https://www.libreoffice.org/) - a free and powerful office suite
+    - [7Zip](https://www.7-zip.org/) - a file archiver with a high compression ratio
+- [glogg](https://glogg.bonnefon.org/) - the fast, smart log explorer
+- [cpuid](https://www.cpuid.com/) - hardware diagnostics
+- [FreeCommanderXE](https://freecommander.com/en/summary/)
+- [cmder](https://cmder.app/) - Portable console emulator for Windows
+- [slack](https://slack.com/) - Chat app
+- [rufus](https://rufus.ie/en/) - Create bootable USB drives the easy way
+- [8BitDo](https://www.8bitdo.com/) - Multi-platform controller
+- [Tor](https://www.torproject.org/) - Browse Privately. Explore Freely.
+- [nerd fonts](https://www.nerdfonts.com/) - Iconic font aggregator, collection, and patcher
+- [wireshark](https://www.wireshark.org/) - The world's most popular network protocol analyzer
+- [docker](https://www.docker.com/) - Develop faster. Run anywhere.
+- [MSYS2](https://www.msys2.org/) - Software Distribution and Building Platform for Windows
+- [chocolatey](https://chocolatey.org/) - The Package Manager for Windows
