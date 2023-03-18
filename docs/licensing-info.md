@@ -1,4 +1,6 @@
-# GNU Licensing Information 
+# Licensing Information
+
+## GNU How-to
 
             How to Apply These Terms to Your New Programs
 
