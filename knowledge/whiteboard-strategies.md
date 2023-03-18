@@ -1,14 +1,6 @@
-# Whiteboarding
+# Whiteboarding Strategies
 
-## Practice Sites
-
-* [Codewars](https://www.codewars.com/)
-* [HackerRank](https://www.hackerrank.com/)
-* [Leetcode](https://leetcode.com/)
-
-## Strategies
-
-### REACTO
+## REACTO
 
 - Repeat: state the problem to check comprehension
 - Examples: consider possible use and edge cases
@@ -17,7 +9,7 @@
 - Test: check that example cases pass correctly
 - Optimize: discuss ways of improving performance
 
-### CtCI
+## Cracking the Coding Interview
 
 - Listen
 - Examples
@@ -27,20 +19,20 @@
 - Implement
 - Test
 
-#### Need a Hint?
+### Need a Hint?
 
 - Look for unused info
 - Fresh example
 - Best Conceivable Runtime (BCR) - given a _problem_ what is the best outcome possible?
 
-#### Optimizations to Consider
+### Optimizations to Consider
 
 - Trade space for time, or possibly vice versa
 - Pre-compute info i.e. sort
 - Use a hash table/cache
 - Consider Best Conceivable Runtime (BCR)
 
-#### Optimization Techniques
+### Optimization Techniques
 
 - B.U.D. - Bottlenecks, Unnecessary work, Duplicated work
 - DIY - Use real example and try it
