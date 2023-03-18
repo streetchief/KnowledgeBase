@@ -7,3 +7,4 @@
 - [vcr](https://github.com/vcr/vcr) - Record your test suite's HTTP interactions and replay them during future test runs for fast, deterministic, accurate tests.
 - [Jazzer.js](https://github.com/CodeIntelligenceTesting/jazzer.js) - a coverage-guided, in-process fuzzer for the Node.js
 - [Nightwatch.js](https://github.com/nightwatchjs/nightwatch) - End-to-end testing framework written in Node.js and using the W3C Webdriver API.
+- [Jest](https://jestjs.io/) - Jest is a delightful JavaScript Testing Framework with a focus on simplicity.

@@ -3,6 +3,7 @@
 ## Guides
 
 - [Awesome Shell](https://github.com/alebcay/awesome-shell) - A curated list of awesome command-line frameworks, toolkits, guides and gizmos.
+- [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line) - Master the command line, in one page
 
 ## Utilities
 
