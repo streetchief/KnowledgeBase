@@ -6,6 +6,15 @@
     - [sumatrapdf](https://www.sumatrapdfreader.org/free-pdf-reader) - image viewer for Windows supporting: PDF, eBook (epub, mobi), comic book (cbz/cbr), DjVu, XPS, CHM
     - [libreOffice](https://www.libreoffice.org/) - a free and powerful office suite
     - [7Zip](https://www.7-zip.org/) - a file archiver with a high compression ratio
+    - [teracopy](https://www.codesector.com/teracopy) - Copy your files faster and more securely
+    - [windirstat](https://windirstat.net/) - a disk usage statistics viewer and cleanup tool
+    - [notepad++](https://notepad-plus-plus.org/) - source code editor
+    - [putty](https://www.putty.org/) - an SSH and telnet client
+    - [winscp](https://winscp.net/eng/index.php) -  a popular SFTP client and FTP client
+    - [paint.net](https://www.getpaint.net/) - image and photo editing software
+    - [superantispyware](https://www.superantispyware.com/) - anti-malware
+    - [firefox](https://www.mozilla.org/en-US/firefox/new/) - web browser
+    - [chrome](https://www.google.com/chrome/) - web browser
 - [glogg](https://glogg.bonnefon.org/) - the fast, smart log explorer
 - [cpuid](https://www.cpuid.com/) - hardware diagnostics
 - [FreeCommanderXE](https://freecommander.com/en/summary/)
