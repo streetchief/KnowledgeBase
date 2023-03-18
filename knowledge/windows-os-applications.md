@@ -1,30 +1,32 @@
 # Windows Applications
 
-- [ninite](https://ninite.com/) - Install and Update All Your Programs at Once
-    - [greenshot](https://getgreenshot.org/) - a light-weight screenshot software tool for Windows
-    - [discord](https://discord.com/) - chat app
-    - [sumatrapdf](https://www.sumatrapdfreader.org/free-pdf-reader) - image viewer for Windows supporting: PDF, eBook (epub, mobi), comic book (cbz/cbr), DjVu, XPS, CHM
-    - [libreOffice](https://www.libreoffice.org/) - a free and powerful office suite
-    - [7Zip](https://www.7-zip.org/) - a file archiver with a high compression ratio
-    - [teracopy](https://www.codesector.com/teracopy) - Copy your files faster and more securely
-    - [windirstat](https://windirstat.net/) - a disk usage statistics viewer and cleanup tool
-    - [notepad++](https://notepad-plus-plus.org/) - source code editor
-    - [putty](https://www.putty.org/) - an SSH and telnet client
-    - [winscp](https://winscp.net/eng/index.php) -  a popular SFTP client and FTP client
-    - [paint.net](https://www.getpaint.net/) - image and photo editing software
-    - [superantispyware](https://www.superantispyware.com/) - anti-malware
-    - [firefox](https://www.mozilla.org/en-US/firefox/new/) - web browser
-    - [chrome](https://www.google.com/chrome/) - web browser
-- [glogg](https://glogg.bonnefon.org/) - the fast, smart log explorer
-- [cpuid](https://www.cpuid.com/) - hardware diagnostics
-- [FreeCommanderXE](https://freecommander.com/en/summary/)
-- [cmder](https://cmder.app/) - Portable console emulator for Windows
-- [slack](https://slack.com/) - Chat app
-- [rufus](https://rufus.ie/en/) - Create bootable USB drives the easy way
+
 - [8BitDo](https://www.8bitdo.com/) - Multi-platform controller
-- [Tor](https://www.torproject.org/) - Browse Privately. Explore Freely.
-- [nerd fonts](https://www.nerdfonts.com/) - Iconic font aggregator, collection, and patcher
-- [wireshark](https://www.wireshark.org/) - The world's most popular network protocol analyzer
-- [docker](https://www.docker.com/) - Develop faster. Run anywhere.
-- [MSYS2](https://www.msys2.org/) - Software Distribution and Building Platform for Windows
 - [chocolatey](https://chocolatey.org/) - The Package Manager for Windows
+- [cmder](https://cmder.app/) - Portable console emulator for Windows
+- [cpu-z](https://www.cpuid.com/softwares/cpu-z.html) - System information software
+- [docker](https://www.docker.com/) - Develop faster. Run anywhere.
+- [FreeCommanderXE](https://freecommander.com/en/summary/)
+- [glogg](https://glogg.bonnefon.org/) - The fast, smart log explorer
+- [hwmonitor](https://www.cpuid.com/softwares/hwmonitor.html) - Voltages, temperatures and fans speed monitoring
+- [MSYS2](https://www.msys2.org/) - Software Distribution and Building Platform for Windows
+- [nerd fonts](https://www.nerdfonts.com/) - Iconic font aggregator, collection, and patcher
+- [ninite](https://ninite.com/) - Install and Update All Your Programs at Once
+    - [7Zip](https://www.7-zip.org/) - A file archiver with a high compression ratio
+    - [chrome](https://www.google.com/chrome/) - Web browser
+    - [discord](https://discord.com/) - Chat app
+    - [firefox](https://www.mozilla.org/en-US/firefox/new/) - Web browser
+    - [greenshot](https://getgreenshot.org/) - A light-weight screenshot software tool for Windows
+    - [libreOffice](https://www.libreoffice.org/) - A free and powerful office suite
+    - [notepad++](https://notepad-plus-plus.org/) - Source code editor
+    - [paint.net](https://www.getpaint.net/) - Image and photo editing software
+    - [putty](https://www.putty.org/) - An SSH and telnet client
+    - [sumatrapdf](https://www.sumatrapdfreader.org/free-pdf-reader) - Image viewer for Windows supporting: PDF, eBook (epub, mobi), comic book (cbz/cbr), DjVu, XPS, CHM
+    - [superantispyware](https://www.superantispyware.com/) - Anti-malware
+    - [teracopy](https://www.codesector.com/teracopy) - Copy your files faster and more securely
+    - [windirstat](https://windirstat.net/) - A disk usage statistics viewer and cleanup tool
+    - [winscp](https://winscp.net/eng/index.php) - A popular SFTP client and FTP client
+- [rufus](https://rufus.ie/en/) - Create bootable USB drives the easy way
+- [slack](https://slack.com/) - Chat app
+- [Tor](https://www.torproject.org/) - Browse Privately. Explore Freely.
+- [wireshark](https://www.wireshark.org/) - The world's most popular network protocol analyzer
