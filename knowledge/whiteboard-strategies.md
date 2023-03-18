@@ -1,4 +1,4 @@
-# Whiteboarding Strategies
+# Whiteboard Strategies
 
 ## REACTO
 

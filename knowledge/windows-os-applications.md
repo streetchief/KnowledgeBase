@@ -30,4 +30,5 @@
 - [rufus](https://rufus.ie/en/) - Create bootable USB drives the easy way
 - [slack](https://slack.com/) - Chat app
 - [Tor](https://www.torproject.org/) - Browse Privately. Explore Freely.
+- [wcap](https://github.com/mmozeiko/wcap) - Simple and efficient screen recording utility for windows
 - [wireshark](https://www.wireshark.org/) - The world's most popular network protocol analyzer
