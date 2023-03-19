@@ -4,7 +4,7 @@ A collection of useful resources FOR EDUCATIONAL PURPOSES.
 The idea of these documents are to be sort of a graph database, each file is a node representing a topic or idea.
 Files are roughly named, with optional topic prefixes, e.g. `language`, or `interview`.
 
-We should adopt a sort of [Reverse DNS notation](https://en.wikipedia.org/wiki/Reverse_domain_name_notation), going from the general to the specific, i.e. `general-more-specific-most-specific`; e.g. `os-windows-applications`.
+We should adopt a sort of [Reverse DNS notation](https://en.wikipedia.org/wiki/Reverse_domain_name_notation), going from the general to the specific, i.e. `general-more-most-specific`; e.g. `os-windows-applications`.
 
 ## Graph Knowledge Base
 
