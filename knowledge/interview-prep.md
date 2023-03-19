@@ -1,8 +1,9 @@
 # Interview Preparation
 
-## Guides
+## Technical Guides
 
 - [Front-end Developer Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions) - A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.
+- [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook)
 
 ## CheatSheet
 
@@ -14,3 +15,7 @@
 - [HackerRank](https://www.hackerrank.com/)
 - [Leetcode](https://leetcode.com/)
 - [InterviewBit](https://www.interviewbit.com/)
+
+## General Guides
+
+- [How to Impress me in an Interview](https://medium.com/@kevincennis/how-to-impress-me-in-an-interview-4fc00e96413)
