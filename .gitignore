@@ -46,4 +46,5 @@ jspm_packages/
 # Yarn Integrity file
 .yarn-integrity
 
+# directory for us devs to keep randoms stuff in
 temp-dev/
