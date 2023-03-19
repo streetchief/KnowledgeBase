@@ -1,6 +1,8 @@
 # Web Development Guides
 
 - [Google web.dev](https://web.dev/)
+- [World Wide Web Consortium (W3C)](https://www.w3.org/) - Leading the web to its full potential
+- [W3C on GitHub](https://w3c.github.io/) -  progressively list the resources useful when working on W3C projects using GitHub.
 
 ## Utilities
 
