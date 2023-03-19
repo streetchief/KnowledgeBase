@@ -18,3 +18,4 @@
 - [Chmod Calculator](https://chmodcommand.com/) - Calculate some permissions.
 - [Explain Shell](https://explainshell.com/) - Write down a command-line to see the help text that matches each argument.
 - [JWT.io](https://jwt.io/) - JSON Web Token (JWT) Playground
+- [Repl.it - JavaScript](https://replit.com/languages/javascript)
