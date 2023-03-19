@@ -19,3 +19,4 @@
 ## General Guides
 
 - [How to Impress me in an Interview](https://medium.com/@kevincennis/how-to-impress-me-in-an-interview-4fc00e96413)
+- [How to Impress an Interviewer](https://medium.com/the-year-of-the-looking-glass/how-to-impress-an-interviewer-c210d9d8e84a)

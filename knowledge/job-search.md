@@ -16,3 +16,8 @@ This in turn helps during interviews when talking about your history.
 ## Application Tracking
 
 - [Huntr.co](https://huntr.co/)
+
+## Guides
+
+- [I Built A Bot To Apply To Thousands Of Jobs At Once–Here’s What I Learned](https://www.fastcompany.com/3069166/i-built-a-bot-to-apply-to-thousands-of-jobs-at-once-heres-what-i-learned)
+- [How to make your time at a Coding Bootcamp work for you after you've left](https://dev.to/llemonggang/how-to-make-your-time-at-a-coding-bootcamp-work-for-you-after-youve-leftan-honest-yet-optimistic-guide)
