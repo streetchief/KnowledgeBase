@@ -1,7 +1,10 @@
 # KnowledgeBase
 
 A collection of useful resources FOR EDUCATIONAL PURPOSES.
-The idea of these documents are to be sort of a graph database, each file is a node representing a topic or idea. 
+The idea of these documents are to be sort of a graph database, each file is a node representing a topic or idea.
+Files are roughly named, with optional topic prefixes, e.g. `language`, or `interview`.
+
+We should adopt a sort of [Reverse DNS notation](https://en.wikipedia.org/wiki/Reverse_domain_name_notation), going from the general to the specific, i.e. `general-more-specific-most-specific`; e.g. `os-windows-applications`.
 
 ## Graph Knowledge Base
 
@@ -16,8 +19,8 @@ Possibly using:
 Alternatives:
 
 - [Roam Research](https://roamresearch.com/) - A note-taking tool for networked thought.
-- [Dendron](https://www.dendron.so/) - very new, vscode plugin only.
+- [Dendron](https://www.dendron.so/) - very new; vscode plugin only.
 
-## License
+## Licenses
 
 The source code used in this project is licensed under the [GNU GPL v3.0](https://www.gnu.org/licenses/gpl-3.0-standalone.html), and the content is licensed under [Creative Commons Attribution-NonCommercial 4.0 International Public License](https://creativecommons.org/licenses/by-nc/4.0/), where applicable.
