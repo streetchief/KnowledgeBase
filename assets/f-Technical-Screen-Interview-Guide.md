@@ -20,7 +20,7 @@ Interviewers can only assess your skills and abilities based on what you show th
 Be honest with yourself—only you know how much prep time you’ll need. Make the most of your prep time by following these steps to plan your approach before you start practicing.
 
 __Schedule time to study and practice.__ Block out time every day to write code. Target medium and hard problems.  
-__Prioritize breadth over depth__. It’s much better to practice solving fewer example problems of many problem types than to become very familiar with one type at the expense of the others.
+__Prioritize breadth over depth__. It’s much better to practice solving fewer example problems of many problem types than to become very familiar with one type at the expense of the others.  
 __Set aside time to review what you’ve practiced.__ As you solve problems, make cheat sheets or flash cards to review later. Revision and repetition will strengthen your understanding of core concepts.  
 __Remember your goal__. Aim for confidently solving two questions—while thinking aloud—in about 35 minutes.
 
