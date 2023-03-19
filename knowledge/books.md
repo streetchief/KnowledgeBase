@@ -11,3 +11,8 @@ High level programming strategies and paradigms.
 By Gene Kim, Kevin Behr, and George Spafford  
 Fictional story about how to save an Information Technology (IT) department.  
 [goodreads link](https://www.goodreads.com/book/show/17255186-the-phoenix-project)
+
+## The Tao of Programming
+
+Translated by Geoffrey James
+[The Tao of Programming](https://www.mit.edu/~xela/tao.html)
