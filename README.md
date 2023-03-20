@@ -1,6 +1,7 @@
 # KnowledgeBase
 
-A collection of useful resources FOR EDUCATIONAL PURPOSES.
+A collection of useful resources for software engineers, and others.
+FOR EDUCATIONAL PURPOSES.
 The idea of these documents are to be sort of a graph database, each file is a node representing a topic or idea.
 Files are roughly named, with optional topic prefixes, e.g. `language`, or `interview`.
 
