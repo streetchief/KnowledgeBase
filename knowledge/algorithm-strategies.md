@@ -1,4 +1,4 @@
-# Programming Strategies
+# Algorithm Strategies
 
 ## **Divide and conquer**
 
