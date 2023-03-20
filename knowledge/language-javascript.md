@@ -39,7 +39,17 @@
 
 - [33 Concepts Every JavaScript Developer Should Know](https://github.com/leonardomso/33-js-concepts) - This repository was created with the intention of helping developers master their concepts in JavaScript.
 - [a vanilla js guide on mastering the dom](https://www.ronaldjamesgroup.com/blog/a-vanilla-js-guide-on-mastering-the-dom)
+- [Inheritance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+- [the-two-pillars-of-javascript](https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3)
+
+## Videos
+
 - [Let's Build: With JavaScript](https://www.youtube.com/playlist?list=PL01nNIgQ4uxM1kntLfPh_3O2GIIdbLqKS)
+- [Event Loop video 1](https://www.youtube.com/watch?v=8aGhZQkoFbQ&t=979s)
+- [Event loop video 2](https://www.youtube.com/watch?v=XzXIMZMN9k4)
+- [Event Loop video 3](https://www.youtube.com/watch?v=u1kqx6AenYw)
+- [Closure](https://www.youtube.com/watch?v=71AtaJpJHw0)
+- [Fullstack Boilermaker guide](https://www.youtube.com/playlist?list=PLx0iOsdUOUmn7D5XL4mRUftn8hvAJGs8H)
 
 ## Style Guides
 
