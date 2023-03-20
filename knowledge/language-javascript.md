@@ -35,6 +35,7 @@
 
 - [33 Concepts Every JavaScript Developer Should Know](https://github.com/leonardomso/33-js-concepts) - This repository was created with the intention of helping developers master their concepts in JavaScript.
 - [a vanilla js guide on mastering the dom](https://www.ronaldjamesgroup.com/blog/a-vanilla-js-guide-on-mastering-the-dom)
+- [Let's Build: With JavaScript](https://www.youtube.com/playlist?list=PL01nNIgQ4uxM1kntLfPh_3O2GIIdbLqKS)
 
 ## Style Guides
 
