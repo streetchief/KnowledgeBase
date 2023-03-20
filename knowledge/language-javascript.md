@@ -24,12 +24,16 @@
 
 - [bull-board](https://github.com/felixmosh/bull-board) - Queue visualizer for Bull/BullMQ
 - [minimatch](https://github.com/isaacs/minimatch) - A minimal matching utility.
+- [SolidJS](https://www.solidjs.com/) - Simple and performant reactivity for building user interfaces.
 - [verror](https://github.com/TritonDataCenter/node-verror) - Rich JavaScript errors.
+- [XState](https://xstate.js.org/) - State machines and statecharts for the modern web.
+- [Yargs](https://github.com/yargs/yargs) - Yargs helps you build interactive command line tools, by parsing arguments and generating an elegant user interface.
 - [Yjs](https://github.com/yjs/yjs) - Conflict-free Replicated Data Types (CRDT) implementation that exposes its internal data structure as shared types.
 
 ## Engines
 
 - [V8 Javascript Engine](https://github.com/v8/v8) - V8 is Google's open source JavaScript engine.
+- [Deno](https://deno.land/) - The easiest, most secure JavaScript runtime.
 
 ## Guides
 
