@@ -7,6 +7,8 @@ Files are roughly named, with optional topic prefixes, e.g. `language`, or `inte
 
 We should adopt a sort of [Reverse DNS notation](https://en.wikipedia.org/wiki/Reverse_domain_name_notation), going from the general to the specific, i.e. `general-more-most-specific`; e.g. `os-windows-applications`.
 
+Hosted on [github](https://github.com/streetchief/KnowledgeBase).
+
 ## Graph Knowledge Base
 
 A.k.a. Personal Knowledge Management (PKM).
