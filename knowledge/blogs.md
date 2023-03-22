@@ -14,3 +14,4 @@
 - [Scripting OS X](https://scriptingosx.com/) - by Armin Briegel: #! is not a curse word
 - [Simon Willison's Weblog](https://simonwillison.net/) - by Simon Willison
 - [Writing](https://rachelbythebay.com/w/) - by Rachel Kroll: Software, technology, sysadmin war stories, and more.
+- [Laughing Meme](https://laughingmeme.org/) - by Kellan Elliott-McCrea
