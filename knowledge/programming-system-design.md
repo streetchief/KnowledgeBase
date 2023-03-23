@@ -9,6 +9,7 @@
 - [awesome-distributed-systems](https://github.com/theanalyst/awesome-distributed-systems)
 - [System Design Interviews](https://github.com/DreamOfTheRedChamber/system-design-interviews)
 - [System Design for Tech Interviews](https://www.hiredintech.com/courses/system-design)
+- [10 Design Patterns every Software Architect and Software Engineer must know](https://ravindraelicherla.medium.com/10-design-patterns-every-software-architect-must-know-b33237bc01c2)
 
 ## Paid Courses
 
@@ -25,6 +26,7 @@
 
 - [System Design: Foundations for Great Human Experience](https://www.youtube.com/watch?v=n17V0G9X2zw)
 - [How to Prepare for a System Design Interview](https://www.youtube.com/watch?v=v20cBCW433s)
+- [Distributed Systems 1.1](https://www.youtube.com/watch?v=UEAMfLPZZhE&list=PLeKd45zvjcDFUEv_ohr_HdUFe97RItdiB&index=1)
 
 ## Overview
 

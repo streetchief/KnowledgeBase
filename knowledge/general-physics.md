@@ -7,3 +7,7 @@
 ## News
 
 - [Compact electron accelerator reaches new speeds with nothing but light](https://phys.org/news/2022-09-compact-electron.html)
+
+## Pictures
+
+- [Astronomy Picture of the Day](https://apod.nasa.gov/apod/astropix.html)
