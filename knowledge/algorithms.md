@@ -14,3 +14,7 @@ References for learning Algorithms.
 - [Know Thy Complexities](https://www.bigocheatsheet.com/) - ...the space and time Big-O complexities of common algorithms used in Computer Science.
 - [The coolest way to generate combinations](https://www.sciencedirect.com/science/article/pii/S0012365X07009570)
 - [A Comparative Study on the Performance of Permutation Algorithms](https://arxiv.org/ftp/arxiv/papers/1205/1205.2888.pdf) - The algorithms codes will be tested using a computer simulation tool to measure and evaluate the execution time between the different implementations.
+
+## Paid Courses
+
+- [The Last Algorithms Course You'll Need](https://frontendmasters.com/courses/algorithms/)

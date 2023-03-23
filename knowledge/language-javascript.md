@@ -60,3 +60,4 @@
 ### Guides
 
 - [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices) -  The Node.js best practices list (March 2023)
+- [Efficient Node](https://github.com/samerbuna/efficient-node)
