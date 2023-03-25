@@ -41,6 +41,7 @@
 - [a vanilla js guide on mastering the dom](https://www.ronaldjamesgroup.com/blog/a-vanilla-js-guide-on-mastering-the-dom)
 - [Inheritance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 - [the-two-pillars-of-javascript](https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3)
+- [How Does JavaScript Actually Work](https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf)
 
 ## Videos
 
