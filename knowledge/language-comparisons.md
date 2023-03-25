@@ -1,5 +1,11 @@
 # Languages
 
+## github comparison
+
+[githut](https://madnight.github.io/githut/#/) - github statistics analysis
+
+## Property Comparison
+
 |   Classes     |   Categories  |   Languages                                                   |
 |---------------|---------------|---------------------------------------------------------------|
 |   Paradigm    |   Procedural  |   C C++ C# Objective-C Java Go                                |
