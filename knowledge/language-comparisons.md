@@ -2,7 +2,8 @@
 
 ## github comparison
 
-[githut](https://madnight.github.io/githut/#/) - github statistics analysis
+[githut](https://githut.info/)
+[githut 2.0](https://madnight.github.io/githut/#/) - github statistics analysis
 
 ## Property Comparison
 
