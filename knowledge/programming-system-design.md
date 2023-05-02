@@ -1,6 +1,5 @@
 # System Design
 
-
 ## Guides
 
 - [system-design-primer](https://github.com/donnemartin/system-design-primer) - Really good system design guides by Donne Martin
@@ -15,6 +14,7 @@
 
 - [Grokking Modern System Design Interview for Engineers & Managers](https://www.educative.io/courses/grokking-modern-system-design-interview-for-engineers-managers)
 - [SystemsExpert](https://www.algoexpert.io/systems/product)
+- [ByteByteGo](https://bytebytego.com/)
 
 ## Books
 
@@ -27,6 +27,10 @@
 - [System Design: Foundations for Great Human Experience](https://www.youtube.com/watch?v=n17V0G9X2zw)
 - [How to Prepare for a System Design Interview](https://www.youtube.com/watch?v=v20cBCW433s)
 - [Distributed Systems 1.1](https://www.youtube.com/watch?v=UEAMfLPZZhE&list=PLeKd45zvjcDFUEv_ohr_HdUFe97RItdiB&index=1)
+
+## Template
+
+- [topcat's template](https://leetcode.com/discuss/career/229177/My-System-Design-Template)
 
 ## Overview
 
