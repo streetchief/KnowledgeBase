@@ -15,6 +15,7 @@
 - [HackerRank](https://www.hackerrank.com/)
 - [Leetcode](https://leetcode.com/)
 - [InterviewBit](https://www.interviewbit.com/)
+- [Exercism](https://exercism.org/)
 
 ## General Guides
 
