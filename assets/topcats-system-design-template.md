@@ -1,6 +1,6 @@
 # Topcat's System Design Template
 
-[original source](https://leetcode.com/discuss/career/229177/My-System-Design-Template)
+[original source for topcat template](https://leetcode.com/discuss/career/229177/My-System-Design-Template)
 
 ## Template
 
