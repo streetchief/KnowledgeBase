@@ -30,7 +30,8 @@
 
 ## Template
 
-- [topcat's template](https://leetcode.com/discuss/career/229177/My-System-Design-Template)
+- [topcat's template (source)](https://leetcode.com/discuss/career/229177/My-System-Design-Template)
+    - [local copy](../assets/topcats-system-design-template.md)
 
 ## Overview
 
