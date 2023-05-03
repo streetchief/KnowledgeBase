@@ -24,3 +24,4 @@ IFS=$'\n\t'
 today=$(date -I)
 filename="$today.md"
 echo "# $(date '+%A %B %d %Y%n')" >> "$filename"
+echo "" >> "$filename"
