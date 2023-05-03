@@ -1,6 +1,6 @@
 # Topcat's System Design Template
 
-[original source for topcat template](https://leetcode.com/discuss/career/229177/My-System-Design-Template)
+[original source for topcat's template](https://leetcode.com/discuss/career/229177/My-System-Design-Template)
 
 ## Template
 
@@ -36,12 +36,12 @@
                 - Availability, Consistency and Scale story for each component
                 - Consistency and availability patterns
         3. Think about the following components, how they would fit in and how it would help
-                a) DNS
-                b) CDN [Push vs Pull]
-                c) Load Balancers [Active-Passive, Active-Active, Layer 4, Layer 7]
-                d) Reverse Proxy
-                e) Application layer scaling [Microservices, Service Discovery]
-                f) DB [RDBMS, NoSQL]
+                a. DNS
+                b. CDN [Push vs Pull]
+                c. Load Balancers [Active-Passive, Active-Active, Layer 4, Layer 7]
+                d. Reverse Proxy
+                e. Application layer scaling [Microservices, Service Discovery]
+                f. DB [RDBMS, NoSQL]
                         - RDBMS 
                             - Master-slave, Master-master, Federation, Sharding, Denormalization, SQL Tuning
                         - NoSQL
@@ -51,18 +51,18 @@
                                     - RAM  [Bounded size] => Redis, Memcached
                                     - AP [Unbounded size] => Cassandra, RIAK, Voldemort
                                     - CP [Unbounded size] => HBase, MongoDB, Couchbase, DynamoDB
-                g) Caches
+                g. Caches
                         - Client caching, CDN caching, Webserver caching, Database caching, Application caching, Cache @Query level, Cache @Object level
                         - Eviction policies:
                                 - Cache aside
                                 - Write through
                                 - Write behind
                                 - Refresh ahead
-                h) Asynchronism
+                h. Asynchronism
                         - Message queues
                         - Task queues
                         - Back pressure
-                i) Communication
+                i. Communication
                         - TCP
                         - UDP
                         - REST
