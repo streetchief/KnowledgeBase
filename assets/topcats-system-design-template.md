@@ -47,10 +47,9 @@
             - NoSQL
                 - Key-Value, Wide-Column, Graph, Document  
                     Fast-lookups:
-                    -------------
-                        - RAM  [Bounded size] => Redis, Memcached
-                        - AP [Unbounded size] => Cassandra, RIAK, Voldemort
-                        - CP [Unbounded size] => HBase, MongoDB, Couchbase, DynamoDB
+                    - RAM  [Bounded size] => Redis, Memcached
+                    - AP [Unbounded size] => Cassandra, RIAK, Voldemort
+                    - CP [Unbounded size] => HBase, MongoDB, Couchbase, DynamoDB
         - Caches
             - Client caching, CDN caching, Webserver caching, Database caching, Application caching, Cache @Query level, Cache @Object level
             - Eviction policies:
