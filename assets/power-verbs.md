@@ -4,7 +4,7 @@
 
 Example: Developed & implemented a training program that resulted in a 45% increase in employee satisfaction
 
-| col 1        | col 2      | col 3      | col 4       | col 5      |
+|              |            |            |             |            |
 | ------------ | ---------- | ---------- | ----------- | ---------- |
 | Administered | Developed  | Formulated | Prepared    | Revised    |
 | Anticipated  | Devised    | Identified | Prioritized | Strategize |
@@ -15,7 +15,7 @@ Example: Developed & implemented a training program that resulted in a 45% incre
 
 Example: Coordinated weekly office schedules for 8 employees
 
-| col 1      | col 2       | col 3        | col 4      | col 5        |
+|            |             |              |            |              |
 | ---------- | ----------- | ------------ | ---------- | ------------ |
 | Acquired   | Cataloged   | Designated   | Logged     | Routed       |
 | Activated  | Centralized | Designed     | Mapped     | Scheduled    |
@@ -33,7 +33,7 @@ Example: Coordinated weekly office schedules for 8 employees
 
 Example: Handled 20-35+ customer calls per shift regarding coverage changes, renewal rates and billing procedures
 
-| col 1        | col 2       | col 3        | col 4      | col 5      |
+|              |             |              |            |            |
 | ------------ | ----------- | ------------ | ---------- | ---------- |
 | Acted        | Displayed   | Input        | Processed  | Sold       |
 | Administered | Distributed | Installed    | Produced   | Stocked    |
@@ -46,7 +46,7 @@ Example: Handled 20-35+ customer calls per shift regarding coverage changes, ren
 
 Example: Developed and supervised the implementation of new computer filing system that reduced paper use by 35%
 
-| col 1       | col 2       | col 3      | col 4      | col 5       |
+|             |             |            |            |             |
 | ----------- | ----------- | ---------- | ---------- | ----------- |
 | Adjusted    | Correlated  | Indexed    | Overhauled | Screened    |
 | Analyzed    | Developed   | Judged     | Oversaw    | Set         |
@@ -61,7 +61,7 @@ Example: Developed and supervised the implementation of new computer filing syst
 
 Example: Trained 20+ new employees in customer service policies over a 2-year period
 
-| col 1       | col 2      | col 3      | col 4          | col 5        |
+|             |            |            |                |              |
 | ----------- | ---------- | ---------- | -------------- | ------------ |
 | Accelerated | Elected    | Guided     | Mentored       | Spearheaded  |
 | Assumed     | Employed   | Hired      | Motivated      | Stimulated   |
@@ -76,7 +76,7 @@ Example: Trained 20+ new employees in customer service policies over a 2-year pe
 
 Example: Increased student participation by 25% over a 6-month period
 
-| col 1        | col 2        | col 3      | col 4      | col 5        | col 6            |
+|              |              |            |            |              |                  |
 | ------------ | ------------ | ---------- | ---------- | ------------ | ---------------- |
 | Accomplished | Constructed  | Ensured    | Hastened   | Minimized    | Reduced (losses) |
 | Achieved     | Contributed  | Excelled   | Heightened | Modernized   | Rejuvenated      |
@@ -94,7 +94,7 @@ Example: Increased student participation by 25% over a 6-month period
 
 Example: Streamlined ordering through the use of computer technology, decreasing wait time from 6-2 days
 
-| col 1        | col 2          | col 3      | col 4        | col 5       | col 6       |
+|              |                |            |              |             |             |
 | ------------ | -------------- | ---------- | ------------ | ----------- | ----------- |
 | Alleviated   | Conceptualized | Detected   | Found        | Repaired    | Solved      |
 | Analyzed     | Created        | Diagnosed  | Investigated | Revamped    | Synthesized |
@@ -106,7 +106,7 @@ Example: Streamlined ordering through the use of computer technology, decreasing
 
 Example: converted files from COBAL to JAVA in order to increase compatibility with current systems
 
-| col 1         | col 2      | col 3      | col 4       | col 5      | col 6     |
+|               |            |            |             |            |           |
 | ------------- | ---------- | ---------- | ----------- | ---------- | --------- |
 | Accounted for | Checked    | Dispensed  | Grossed     | Projected  | Tabulated |
 | Appraised     | Compiled   | Dispersed  | Increased   | Purchased  | Totaled   |
@@ -120,7 +120,7 @@ Example: converted files from COBAL to JAVA in order to increase compatibility w
 
 Example: Presented to groups of 30+ transfer students on a weekly basis concerning university policies and procedures
 
-| col 1        | col 2        | col 3       | col 4      | col 5         | col 6        |
+|              |              |             |            |               |              |
 | ------------ | ------------ | ----------- | ---------- | ------------- | ------------ |
 | Acted        | Composed     | Elicited    | Justified  | Rendered      | Summarized   |
 | Adapted      | Consented    | Explained   | Lectured   | Reported      | Supplemented |
@@ -142,7 +142,7 @@ Example: Presented to groups of 30+ transfer students on a weekly basis concerni
 
 Example: Provided academic support for 30+ at-risk primary school students through comprehensive after-school program
 
-| col 1        | col 2      | col 3    | col 4        | col 5         | col 6     |
+|              |            |          |              |               |           |
 | ------------ | ---------- | -------- | ------------ | ------------- | --------- |
 | Aided        | Bolstered  | Eased    | Familiarized | Prescribed    | Returned  |
 | Accommodated | Coached    | Elevated | Helped       | Provided      | Saved     |
