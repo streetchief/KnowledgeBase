@@ -1,6 +1,7 @@
 # Co-Worker Recommendations
 
 Writing recommendations is nice. Here's some strategies.
+I guess you could also ask [ChatGPT](https://openai.com/) for some help, but remeber we are still in the relatively early days of AI/ML.
 
 ## Strategy One
 
