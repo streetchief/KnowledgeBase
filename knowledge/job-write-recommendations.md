@@ -13,7 +13,7 @@ Writing recommendations is nice. Here's some strategies.
 
 ## Strategy Two
 
-[source](https://www.themuse.com/advice/your-5minute-guide-to-writing-an-amazing-linkedin-recommendation)
+[5-minute-guide-to-writing-an-amazing-linkedin-recommendation](https://www.themuse.com/advice/your-5minute-guide-to-writing-an-amazing-linkedin-recommendation)
 
 1. Knockout line
 2. Describe relationship - when, where, how long
