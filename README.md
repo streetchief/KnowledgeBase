@@ -1,13 +1,25 @@
 # KnowledgeBase
 
-A collection of useful resources for software engineers, and others.
-FOR EDUCATIONAL PURPOSES.
-The idea of these documents are to be sort of a graph database, each file is a node representing a topic or idea.
+A collection of useful resources for software engineers, and others.  
+FOR EDUCATIONAL PURPOSES ONLY.  
+The idea of these documents are to be sort of a graph database, each file is a node representing a topic or idea.  
 Files are roughly named, with optional topic prefixes, e.g. `language`, or `interview`.
 
-We should adopt a sort of [Reverse DNS notation](https://en.wikipedia.org/wiki/Reverse_domain_name_notation), going from the general to the specific, i.e. `general-more-most-specific`; e.g. `os-windows-applications`.
+We adopt a sort of [Reverse DNS notation](https://en.wikipedia.org/wiki/Reverse_domain_name_notation), going from the general to the specific, i.e. `general-more-most-specific`; e.g. `os-windows-applications`.
 
-Hosted on [github](https://github.com/streetchief/KnowledgeBase).
+Currently hosted at [github.com/streetchief/KnowledgeBase](https://github.com/streetchief/KnowledgeBase).
+
+## How to Use
+
+There is a ton of useful information in [the knowledge folder](./knowledge/).  
+We also have:
+
+- copies of 3rd parties resources mapped to Markdown in [the assets folder](./assets/)
+- useful scripts like [`generate-journal-page.sh`](./tools/generate-journal-page.sh) in [the tools folder](./tools/)
+- useful file templates like [`generic-node-script.mjs`](./templates/generic-node-script.mjs) in [the templates folder](./templates/)
+- documentation for contributors like [`how-to-use-licensing-info.md`](./docs/how-to-use-licensing-info.md)
+
+Tip: when browsing `github.com`, press the `t` key to bring up a fuzzy file search.
 
 ## Graph Knowledge Base
 
@@ -23,6 +35,19 @@ Alternatives:
 
 - [Roam Research](https://roamresearch.com/) - A note-taking tool for networked thought.
 - [Dendron](https://www.dendron.so/) - very new; vscode plugin only.
+
+## Pragmatic Starter Kit
+
+The pillars of pragmatic system design from `The Pragmatic Programmer, 20th Anniversary Edition` by Thomas and Hunt: 
+
+- Version Control Systems (VCS)
+- Automated Testing
+- Full Automation
+
+## Contributing
+
+Please feel free to contribute!  
+See [the contribution guide for details](./CONTRIBUTING.txt), but for now the TLDR is: `keep it simple`.
 
 ## Licenses
 
