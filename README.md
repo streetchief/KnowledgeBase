@@ -11,6 +11,7 @@ Currently hosted at [github.com/streetchief/KnowledgeBase](https://github.com/st
 
 ## How to Use
 
+Either browse the online repository, or for easier browsing, clone the repository locally and browse with your favorite editor.  
 There is a ton of useful information in [the knowledge folder](./knowledge/).  
 We also have:
 
