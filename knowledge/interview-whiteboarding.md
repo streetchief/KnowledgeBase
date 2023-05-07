@@ -22,6 +22,6 @@
 - [How to Impress me in an Interview](https://medium.com/@kevincennis/how-to-impress-me-in-an-interview-4fc00e96413)
 - [How to Impress an Interviewer](https://medium.com/the-year-of-the-looking-glass/how-to-impress-an-interviewer-c210d9d8e84a)
 - [14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed) -  ...the top 14 patterns that can be used to solve any coding interview question, as well as how to identify each pattern, and some example questions for each.
- - [Reddit Career Advice](https://www.reddit.com/r/cscareerquestions/comments/1jov24/heres_how_to_prepare_for_tech_interviews/)
+- [Reddit Career Advice](https://www.reddit.com/r/cscareerquestions/comments/1jov24/heres_how_to_prepare_for_tech_interviews/)
 - [50+ Data Structure and Algorithms Interview Questions for Programmers](https://hackernoon.com/50-data-structure-and-algorithms-interview-questions-for-programmers-b4b1ac61f5b0)
 - [The top data structures you should know for your next coding interview](https://www.freecodecamp.org/news/the-top-data-structures-you-should-know-for-your-next-coding-interview-36af0831f5e3/)
