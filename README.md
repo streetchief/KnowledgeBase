@@ -20,7 +20,7 @@ We also have:
 - file templates like [`generic-node-script.mjs`](./templates/generic-node-script.mjs) in [the templates folder](./templates/)
 - documentation for contributors like [`how-to-use-licensing-info.md`](./docs/how-to-use-licensing-info.md) in [the docs folder](./docs/)
 
-Tip: when browsing `github.com`, press the `t` key to bring up a fuzzy file search.
+Tip: when browsing `github{dot}com`, press the `t` key to bring up a fuzzy file search.
 
 ## Graph Knowledge Base
 
