@@ -14,3 +14,4 @@ The [Wikipedia](https://en.wikipedia.org/wiki/Curriculum_vitae) article.
 ## Guides
 
 - [Create auto-publishing resume](https://bas.codes/posts/github-actions-resume)
+- [The D.E.N.N.I.S. system: Résumé tips for Senior Devs](https://jacobbartlett.substack.com/p/the-dennis-system-cvs-tips-for-senior)
