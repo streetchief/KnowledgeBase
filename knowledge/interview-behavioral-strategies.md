@@ -31,7 +31,7 @@
 3.  Actions
 4.  Results
 
-### S.A.I.L
+### S.A.I.L.
 
 1. Situation
 2. Action
