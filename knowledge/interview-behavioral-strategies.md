@@ -31,6 +31,13 @@
 3.  Actions
 4.  Results
 
+### S.A.I.L
+
+1. Situation
+2. Action
+3. Impact
+4. Lessons
+
 ##  Guides
 
 - [Ali Spittel](https://twitter.com/ASpittel/status/1214979863683174400)
