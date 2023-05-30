@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# Unofficial bash strict mode
+# For more info, see: http://redsymbol.net/articles/unofficial-bash-strict-mode/
 set -euo pipefail
 IFS=$'\n\t'
 
@@ -19,6 +21,7 @@ IFS=$'\n\t'
 # %M – Minute (00-59)
 # %S – Second (00-60)
 # %n - Newline character
+
 today=$(date -I)
 filename="$today.md"
 echo "# $(date '+%A %B %d %Y%n')" >> "$filename"

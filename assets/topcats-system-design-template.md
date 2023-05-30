@@ -43,7 +43,7 @@
         - Application layer scaling [Microservices, Service Discovery]
         - DB [RDBMS, NoSQL]
             - RDBMS 
-                - Master-slave, Master-master, Federation, Sharding, Denormalization, SQL Tuning
+                - Master-slave, Master-master, Federation, Sharding, De-normalization, SQL Tuning
             - NoSQL
                 - Key-Value, Wide-Column, Graph, Document  
                     Fast-lookups:
