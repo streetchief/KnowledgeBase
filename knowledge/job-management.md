@@ -1,6 +1,6 @@
 # Management
 
-Lead by example!
+Lead by example! Be a servant leader - ask "How can I help?"
 
 ## Guides
 
