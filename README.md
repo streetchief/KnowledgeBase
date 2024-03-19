@@ -12,7 +12,8 @@ Currently hosted at [github.com/streetchief/KnowledgeBase](https://github.com/st
 ## How to Use
 
 Either browse the online repository, or for easier browsing, clone the repository locally and browse with your favorite editor.  
-There is a ton of useful information in [the knowledge folder](./knowledge/).  
+There is a ton of useful information in [the knowledge folder](./knowledge/). I have tried to streamline the resources; specific tech will be prefixed with `software`, and more general concepts will start with `programming`. Apologies if I broke any links.
+
 We also have:
 
 - copies of 3rd parties resources mapped to Markdown, like [`power-verbs.md`](./assets/power-verbs.md) in [the assets folder](./assets/)
