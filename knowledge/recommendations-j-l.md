@@ -1,4 +1,4 @@
-# Spicy Pepl J.L. Recommendations
+# J.L. Recommendations
 
 fundamental concepts:
 - the pattern on the stone: the simple ideas that make computers work

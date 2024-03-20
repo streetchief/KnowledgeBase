@@ -1,4 +1,4 @@
-# Spicy Pepl J.G. Recommendations
+# J.G. Recommendations
 
 Designing Your Life
 The Artist’s Way
