@@ -10,3 +10,7 @@
 
 - [Permutations](https://www.tutorsonnet.com/different-formulas-on-permutation-homework-help.php)
 - [Perms and Combs](https://medium.com/i-math/combinations-permutations-fa7ac680f0ac)
+
+## Math Articles
+
+- [How a Math Genius Hacked OkCupid to Find True Love](https://www.wired.com/2014/01/how-to-hack-okcupid/)

@@ -5,14 +5,15 @@ FOR EDUCATIONAL PURPOSES ONLY.
 The idea of these documents are to be sort of a graph database, each file is a node representing a topic or idea.  
 Files are roughly named, with optional topic prefixes, e.g. `language`, or `interview`.
 
-We adopt a sort of [Reverse DNS notation](https://en.wikipedia.org/wiki/Reverse_domain_name_notation), going from the general to the specific, i.e. `general-more-most-specific`; e.g. `os-windows-applications`.
+We adopt a sort of [Reverse DNS notation](https://en.wikipedia.org/wiki/Reverse_domain_name_notation), going from the general to the specific, i.e. `general-more-most-specific`; e.g. `software-apps-windows`.
 
 Currently hosted at [github.com/streetchief/KnowledgeBase](https://github.com/streetchief/KnowledgeBase).
 
 ## How to Use
 
 Either browse the online repository, or for easier browsing, clone the repository locally and browse with your favorite editor.  
-There is a ton of useful information in [the knowledge folder](./knowledge/).  
+There is a ton of useful information in [the knowledge folder](./knowledge/). I have tried to streamline the resources; specific tech will be prefixed with `software`, and more general concepts will start with `programming`. Apologies if I broke any links.
+
 We also have:
 
 - copies of 3rd parties resources mapped to Markdown, like [`power-verbs.md`](./assets/power-verbs.md) in [the assets folder](./assets/)
