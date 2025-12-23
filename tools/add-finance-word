@@ -1,0 +1,30 @@
+#!/bin/bash
+set -euo pipefail
+IFS=$'\n\t'
+
+glossaryDir="/knowledge/finance-glossary/"
+targetDir="$(pwd)$glossaryDir"
+read -p "Enter word for glossary: " word
+filename="$word.md"
+target="$targetDir$filename"
+
+if [[ -f $target ]]; then
+    echo "$filename already exists!"
+    exit 1
+fi
+
+read -p "Enter definition: " definition
+read -p "Add tag [Optional]: " tag
+echo "Creating file $filename..."
+
+{
+    echo "# $word"
+    echo ""
+    echo "## Definition"
+    echo "$definition"
+    echo ""
+    echo "## Tags"
+    echo "$tag"
+} > "$target"
+
+echo Done!
