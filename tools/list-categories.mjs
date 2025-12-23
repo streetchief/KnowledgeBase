@@ -1,6 +1,5 @@
 import { readdir } from "node:fs/promises";
 
-// FIXME: exclude folders
 const files = await readdir('./knowledge', { withFileTypes: true });
 let maxLength = 0;
 
