@@ -2,8 +2,15 @@
 set -euo pipefail
 IFS=$'\n\t'
 
-glossaryDir="/knowledge/finance-glossary/"
+clear
+glossaryDir="/knowledge/finance-glossary/temp/"
 targetDir="$(pwd)$glossaryDir"
+
+if [[ ! -d "$targetDir" ]]; then
+    echo "Making directory $targetDir..."
+    mkdir "$targetDir"
+fi
+
 read -p "Enter word for glossary: " word
 filename="$word.md"
 target="$targetDir$filename"
@@ -14,7 +21,7 @@ if [[ -f $target ]]; then
 fi
 
 read -p "Enter definition: " definition
-read -p "Add tag [Optional]: " tag
+# read -p "Add tag [Optional]: " tag
 echo "Creating file $filename..."
 
 {
@@ -24,7 +31,7 @@ echo "Creating file $filename..."
     echo "$definition"
     echo ""
     echo "## Tags"
-    echo "$tag"
+    # echo "$tag"
 } > "$target"
 
 echo Done!
