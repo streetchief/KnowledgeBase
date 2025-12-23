@@ -1,0 +1,35 @@
+#!/bin/bash
+set -euo pipefail
+IFS=$'\n\t'
+
+append_to_glossary () {
+    cat "$file" \
+    | awk '
+        /^# / {
+            word = substr($0, 3)
+        }
+        /^## Def/ {
+            while (getline && $0 == "") {}
+            def = $0
+        }
+        END {
+            print word ": " def "\n"
+        }
+    ' >> "$targetFile"
+}
+
+glossaryDir="/knowledge/finance-glossary"
+sourceDir="$(pwd)$glossaryDir"
+targetFilename="glossary.md"
+targetFile="$sourceDir/$targetFilename"
+
+if [[ -f "$targetFile" ]]; then
+    echo "Clearing existing glossary..."
+    truncate -s 0 "$targetFile"
+fi;
+
+for file in $sourceDir/*; do
+    if [[ "$file" != "$targetFilename" ]]; then
+        append_to_glossary
+    fi
+done
