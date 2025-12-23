@@ -21,7 +21,6 @@ if [[ -f $target ]]; then
 fi
 
 read -p "Enter definition: " definition
-# read -p "Add tag [Optional]: " tag
 echo "Creating file $filename..."
 
 {
@@ -31,7 +30,6 @@ echo "Creating file $filename..."
     echo "$definition"
     echo ""
     echo "## Tags"
-    # echo "$tag"
 } > "$target"
 
 echo Done!
