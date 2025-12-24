@@ -31,10 +31,14 @@ append_to_json () {
         }
         /^## Tags/ {
             while (getline && $0 == "") {}
-            split($0, tags, ",")
+            tags = $0
         }
         END {
-            print "{\n\"word\": \"" word "\",\n\"definition\": \"" def "\"\n},"
+            print "{"
+            print "\"word\": \"" word "\","
+            print "\"definition\": \"" def "\","
+            print "\"tagString\": \"" tags "\""
+            print "},"
         }
     ' >> "$targetJSON"
 }
