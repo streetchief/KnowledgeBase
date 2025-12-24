@@ -18,18 +18,67 @@ append_to_glossary () {
     ' >> "$targetFile"
 }
 
-glossaryDir="/knowledge/finance-glossary"
-sourceDir="$(pwd)$glossaryDir"
-targetFilename="glossary.md"
-targetFile="$sourceDir/$targetFilename"
+append_to_json () {
+    cat "$file" \
+    | awk '
+        /^# / {
+            word = substr($0, 3)
+        }
+        /^## Def/ {
+            while (getline && $0 == "") {}
+            gsub(/"/, "\\\"", $0)
+            def = $0
+        }
+        /^## Tags/ {
+            while (getline && $0 == "") {}
+            split($0, tags, ",")
+        }
+        END {
+            print "{\n\"word\": \"" word "\",\n\"definition\": \"" def "\"\n},"
+        }
+    ' >> "$targetJSON"
+}
 
-if [[ -f "$targetFile" ]]; then
-    echo "Clearing existing glossary..."
-    truncate -s 0 "$targetFile"
+glossaryDir="/knowledge/finance-glossary"
+rootDir="$(pwd)"
+sourceDir="$rootDir$glossaryDir"
+buildDir="$rootDir/build"
+targetFilename="glossary.md"
+targetFile="$buildDir/$targetFilename"
+targetJsonName="glossary.json"
+targetJSON="$buildDir/$targetJsonName"
+
+if [[ "$1" == "md" ]]; then
+    if [[  -f "$targetFile" ]]; then
+        echo "Clearing existing glossary..."
+        truncate --size=0 "$targetFile"
+    fi
+
+    for file in "$sourceDir"/*; do
+        append_to_glossary
+    done
 fi;
 
-for file in $sourceDir/*; do
-    if [[ "$file" != "$targetFilename" ]]; then
-        append_to_glossary
+if [[ "$1" == "json" ]]; then
+    if [[ -f "$targetJSON" ]]; then
+        echo "Clearing existing json..."
+        truncate --size=0 "$targetJSON"
     fi
-done
+
+    echo "[" > "$targetJSON"
+
+    for file in "$sourceDir"/*; do
+        append_to_json
+    done
+
+    # This is based on bytes and probably fails on windows due to line end difference.
+    # Delete 1 byte for newline and 1 for trailing comma.
+    truncate --size=-2 "$targetJSON"
+
+    {
+        echo ""
+        echo "]"
+    } >> "$targetJSON"
+fi
+
+echo "Done!"

@@ -1,5 +1,6 @@
 # Constructed files
-knowledge/finance-glossary/glossary.md
+build/*
+!build/.gitkeep
 
 # Logs
 logs
