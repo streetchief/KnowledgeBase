@@ -2,6 +2,7 @@
 set -euo pipefail
 IFS=$'\n\t'
 
+echo "Starting add word..."
 clear
 glossaryDir="/knowledge/finance-glossary/temp/"
 targetDir="$(pwd)$glossaryDir"

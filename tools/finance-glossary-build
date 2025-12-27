@@ -29,7 +29,7 @@ append_to_json () {
             # Escape double quotes
             gsub(/"/, "\\\"", $0)
             # Escape latex sentinels
-            gsub(/\\/, "\\", $0)
+            gsub(/\\/, "\\\\", $0)
             def = $0
         }
         /^## Tags/ {
@@ -54,6 +54,8 @@ targetFilename="glossary.md"
 targetFile="$buildDir/$targetFilename"
 targetJsonName="glossary.json"
 targetJSON="$buildDir/$targetJsonName"
+
+echo "Building $1 glossary..."
 
 # Markdown generation
 
