@@ -2,7 +2,7 @@
 set -euo pipefail
 IFS=$'\n\t'
 
-append_to_glossary () {
+append_to_markdown () {
     cat "$file" \
     | awk '
         /^# / {
@@ -26,7 +26,10 @@ append_to_json () {
         }
         /^## Def/ {
             while (getline && $0 == "") {}
+            # Escape double quotes
             gsub(/"/, "\\\"", $0)
+            # Escape latex sentinels
+            gsub(/\\/, "\\", $0)
             def = $0
         }
         /^## Tags/ {
@@ -52,6 +55,8 @@ targetFile="$buildDir/$targetFilename"
 targetJsonName="glossary.json"
 targetJSON="$buildDir/$targetJsonName"
 
+# Markdown generation
+
 if [[ "$1" == "md" ]]; then
     if [[  -f "$targetFile" ]]; then
         echo "Clearing existing glossary..."
@@ -59,9 +64,11 @@ if [[ "$1" == "md" ]]; then
     fi
 
     for file in "$sourceDir"/*; do
-        append_to_glossary
+        append_to_markdown
     done
 fi;
+
+# JSON generation
 
 if [[ "$1" == "json" ]]; then
     if [[ -f "$targetJSON" ]]; then
