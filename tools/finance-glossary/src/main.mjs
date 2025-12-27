@@ -1,21 +1,26 @@
 import { clearContainer } from "./utils.mjs";
-import jsonArray from '../glossary.json' with { type: 'json'};
+import jsonArray from './glossary.json' with { type: 'json'};
 
 //#region HTMLElements
 
-const sidebar = document.querySelector('aside ul#word-list')
+const sidebar = document.querySelector('aside ul#tag-list')
 const wordBlock = document.getElementById('word')
 const definitionBlock = document.getElementById('definition')
 const clearWordSelectionButton = document.getElementById('clear-word')
 const searchInput = document.getElementById('word-input')
 const suggestions = document.getElementById('suggestions')
 const tagWordsContainer = document.getElementById('tag-words')
+const wordListContainer = document.getElementById('word-list')
 
 //#endregion
 
 //#region setup
+const allTag = 'all'
+const listAllTag = 'list-all'
 const tagProp = 'data-tag'
 const definitionIndex = new Map()
+
+/** @type {Map<string, string[]} */
 const tagsIndex = new Map()
 let selectedTag;
 
@@ -34,6 +39,8 @@ for (const { word, definition, tagString } of jsonArray) {
     addSuggestion(word)
 }
 
+addTagToSidebar(allTag)
+addTagToSidebar(listAllTag)
 tagsIndex.forEach((word, tag) => addTagToSidebar(tag))
 clearWordSelectionButton.addEventListener('click', clearMain)
 searchInput.addEventListener('keydown', handleSubmit)
@@ -63,15 +70,15 @@ function addTagToSidebar(tag) {
     sidebar.appendChild(listItem)
 }
 
-function handleTagClick(tag) {
-    clearMain()
-    selectedTag = tag;
-    const wordsForTag = tagsIndex.get(tag)
+function getWordsForAllTag() {
+    return Array.from(definitionIndex.keys()).flat().sort();
+}
 
-    wordsForTag.forEach(word => {
+function addWordsAsButtons(words) {
+    words.forEach(word => {
         const button = document.createElement('button')
         button.innerText = word
-        button.classList.add('link-style')
+        button.setAttribute('type', 'button')
         button.addEventListener('click', (event) => {
             const word = event.target.innerText;
             handleWordClick(word)
@@ -79,6 +86,38 @@ function handleTagClick(tag) {
 
         tagWordsContainer.appendChild(button)
     })
+}
+
+function addWordsAsList(words) {
+    words.forEach(word => {
+        const paragraph = document.createElement('p')
+        const strong = document.createElement('strong')
+        strong.innerText = word;
+        paragraph.appendChild(strong)
+        const spacer = document.createTextNode(': ')
+        paragraph.appendChild(spacer)
+        const definition = document.createTextNode(definitionIndex.get(word))
+        paragraph.appendChild(definition)
+        wordListContainer.appendChild(paragraph)
+    })
+}
+
+function handleTagClick(tag) {
+    clearMain()
+    selectedTag = tag;
+    let wordsForTag;
+
+    if (tag === allTag || tag === listAllTag) {
+        wordsForTag = getWordsForAllTag()
+    } else {
+        wordsForTag = tagsIndex.get(tag);
+    }
+
+    if (tag === listAllTag) {
+        addWordsAsList(wordsForTag)
+    } else {
+        addWordsAsButtons(wordsForTag)
+    }
 }
 
 function addSuggestion(word) {
@@ -99,7 +138,8 @@ function clearMain(_event) {
     clearWordBlock();
     clearDefinition();
     clearSearch();
-    clearTagWordsContainer()
+    clearTagWordsContainer();
+    clearWordList()
 }
 
 function clearWordBlock() {
@@ -112,6 +152,10 @@ function clearDefinition() {
 
 function clearSearch() {
     searchInput.value = ''
+}
+
+function clearWordList() {
+    clearContainer(wordListContainer)
 }
 
 function clearTagWordsContainer() {

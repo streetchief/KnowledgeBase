@@ -9,25 +9,32 @@
     <meta http-equiv="Content-Security-Policy" content="
         script-src 'self';
     ">
-    <link rel="stylesheet" href="./styles.css" type="text/css" />
+    <link rel="stylesheet" href="./index.css" type="text/css" />
+    <link rel="stylesheet" href="./elements.css" type="text/css" />
   </head>
   <body>
-    <h1>Finance Glossary</h1>
+    <div>
+      <h1>Finance Glossary</h1>
+      <div class="search-container">
+        <label for="word-input">Seach:&nbsp;</label>
+        <input 
+          id="word-input"
+          name="word-input" 
+          type="search"
+          list="suggestions"
+        />
+        <button id="clear-word">Clear</button>
+      </div>
+    </div>
     <aside>
-      <ul id="word-list"></ul>
+      <ul id="tag-list"></ul>
     </aside>
     <main>
-      <label for="word-input">Seach:&nbsp;</label>
-      <input 
-        id="word-input"
-        name="word-input" 
-        type="search" 
-        list="suggestions"
-      />
+
       <p id="word"></p>
       <p id="definition"></p>
-      <p id="tag-words"></p>
-      <button id="clear-word">Clear</button>
+      <div id="tag-words" class="tag-words"></div>
+      <div id="word-list" class="word-list"></div>
       <datalist id="suggestions"></datalist>
     </main>
     <script type="module" src="./main.mjs"></script>

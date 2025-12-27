@@ -1,0 +1,402 @@
+[
+{
+"word": "Adverse selection",
+"definition": "The problem created by asymmetric information before a transaction occurs. The people who are the most undesirable from the other party’s point of view are the ones who are most likely to want to engage in the financial transaction.",
+"tagString": "financial-systems"
+},
+{
+"word": "Assets",
+"definition": "A financial claim or piece of property that is a store of value.",
+"tagString": "financial-markets,financial-institutions"
+},
+{
+"word": "Asymmetric information",
+"definition": "The inequality of knowledge that each party to a transaction has about the other party.",
+"tagString": "financial-systems"
+},
+{
+"word": "Banks",
+"definition": "Financial institutions that accept deposits and make loans (such as commercial banks, savings and loans associations, and credit unions).",
+"tagString": "financial-markets,financial-institutions"
+},
+{
+"word": "Bond",
+"definition": "A debt security that promises to make payments periodically for a specified period of time.",
+"tagString": "financial-markets,financial-institutions"
+},
+{
+"word": "Brokers",
+"definition": " Agents for investors who match buyers with sellers.",
+"tagString": "financial-systems"
+},
+{
+"word": "Capital",
+"definition": "wealth, either financial or physical, that is employed to produce more wealth.",
+"tagString": "financial-systems"
+},
+{
+"word": "Captial market",
+"definition": "A financial market in which longer-term debt (maturity greater than one year) and equity instruments are traded.",
+"tagString": "financial-systems"
+},
+{
+"word": "Cash flows",
+"definition": "The difference between cash receipts and cash expenditures",
+"tagString": "interest-rates"
+},
+{
+"word": "Central bank",
+"definition": "The government agency that oversees the banking system and is responsible for the amount of money and credit supplied in the economy; in the US, the Federal Reserve System.",
+"tagString": "financial-markets,financial-institutions"
+},
+{
+"word": "Common stock",
+"definition": "A security that gives the holder an ownership interest in the issuing firm. This ownership interest includes the right to any residual cash flows and the right to vote on major corporate issues.",
+"tagString": "financial-markets,financial-institutions"
+},
+{
+"word": "Conflict of interest",
+"definition": "A manifestation of moral hazard in which one party in a financial contract has incentives to act in its own interest, rather than in the interests of the other party.",
+"tagString": "financial-systems"
+},
+{
+"word": "Coupon bond",
+"definition": "A credit market instrumet that pays the owner a fixed interest payment every year until the maturity date, when a specified final amount is paid.",
+"tagString": "interest-rates"
+},
+{
+"word": "Coupon rate",
+"definition": "The dollar amount of the yearly coupon payment expressed as a percentage of the face value of a coupon bond.",
+"tagString": "interest-rates"
+},
+{
+"word": "Current yield",
+"definition": "An approximation of the yield to maturity that equals the yearly coupon payment divided by the price of a coupon bond.",
+"tagString": "interest-rates"
+},
+{
+"word": "Dealers",
+"definition": "People who link buyers with sellers by buying and selling securities at stated prices.",
+"tagString": "financial-systems"
+},
+{
+"word": "Discount bond",
+"definition": "A credit market instrument that is bought at a price below its face value and whose face value is repaid at the maturity date; it does not make any interest payments. (Also known as a zero-coupon bond).",
+"tagString": "interest-rates"
+},
+{
+"word": "Diversification",
+"definition": ": Investing in a collection (portfolio) of assets whose returns do not always move together, with the result that overall risk is lower than for individual assets.",
+"tagString": "financial-systems"
+},
+{
+"word": "Dividends",
+"definition": "Periodic payments made by equities to shareholders.",
+"tagString": "financial-systems"
+},
+{
+"word": "Duration",
+"definition": "The average lifetime of a debt security's stream of payments.",
+"tagString": "interest-rates"
+},
+{
+"word": "E-finance",
+"definition": "A new means of delivering financial services electronically.",
+"tagString": "financial-markets,financial-institutions"
+},
+{
+"word": "Economies of scale",
+"definition": "Savings that can be achieved through increased size.",
+"tagString": "financial-systems"
+},
+{
+"word": "Economies of scope",
+"definition": "Increased business that can be achieved by offering many products in one easy-to-reach location.",
+"tagString": "financial-systems"
+},
+{
+"word": "Equities",
+"definition": "Claims to share in the net income and assets of a corporation (such as common stock).",
+"tagString": "financial-systems"
+},
+{
+"word": "Eurobond",
+"definition": "Bonds denominated in a currency other than that of the country in which they are sold.",
+"tagString": "financial-systems"
+},
+{
+"word": "Eurocurrencies",
+"definition": "Foreign currencies deposited in banks outside the home country.",
+"tagString": "financial-systems"
+},
+{
+"word": "Eurodollars",
+"definition": "U.S. dollars that are deposited in foreign banks outside of the United States or in foreign branches of the U.S. banks.",
+"tagString": "financial-systems"
+},
+{
+"word": "Exchange",
+"definition": ": Secondary markets in which buyers and sellers of securities (or their agents or brokers) meet in one central location to conduct trades.",
+"tagString": "financial-systems"
+},
+{
+"word": "Face value",
+"definition": "The specified final amount repaid at the maturity date of a coupon bond. (Also called par value).",
+"tagString": "interest-rates"
+},
+{
+"word": "Federal Reserve System",
+"definition": "The central banking authority responsible for monetary policy in the US. A.k.a. The Fed.",
+"tagString": "financial-markets,financial-institutions"
+},
+{
+"word": "Financial Intermediaries",
+"definition": "Institutions, such as banks, insurance companies, mutual funds, pension funds, and finance companies that borrow funds from people who have saved and then make loans to others.",
+"tagString": "financial-markets,financial-institutions"
+},
+{
+"word": "Financial crisis",
+"definition": "A major disruption in the financial markets, characterized by sharp declines in asset prices and the failures of many financial and non-financial firms.",
+"tagString": "financial-markets,financial-institutions"
+},
+{
+"word": "Financial innovation",
+"definition": "The development of new financial products and services.",
+"tagString": "financial-markets,financial-institutions"
+},
+{
+"word": "Financial intermediation",
+"definition": "The process of indirect finance whereby financial intermediaries link lender-savers and borrower-spenders.",
+"tagString": "financial-systems"
+},
+{
+"word": "Financial markets",
+"definition": "Markets in which funds are transferred from people who have a surplus of available funds to people who have a shortage of available funds.",
+"tagString": "financial-markets,financial-institutions"
+},
+{
+"word": "Financial panic",
+"definition": "The widespread collapse of financial markets and intermediaries in an economy.",
+"tagString": "financial-systems"
+},
+{
+"word": "Fisher equation",
+"definition": "The nominal interest rate $i$ equals the real interest rate $i_r$ plus the expected rate of inflation $\\pi^e$. I.E. $i = i_r + \\pi^e$. Re-arranging the terms, $i_r = i - \\pi^e$.",
+"tagString": "interest-rates"
+},
+{
+"word": "Fixed-payment loan",
+"definition": "A credit market instrument that provides a borrower with an amount of money that is repaid by making a fixed payment periodically (usually monthly) for a set number of years.",
+"tagString": "interest-rates"
+},
+{
+"word": "Foreign bonds",
+"definition": "Bonds sold in a foreign country and denominated in that country’s currency.",
+"tagString": "financial-systems"
+},
+{
+"word": "Foreign exchange market",
+"definition": "the market in which exchange rates are determined.",
+"tagString": "financial-markets,financial-institutions"
+},
+{
+"word": "Foreign exchange rate",
+"definition": "The price of one currency in terms of another.",
+"tagString": "financial-markets,financial-institutions"
+},
+{
+"word": "Fully amortized loan",
+"definition": "A fixed-payment loan in which the lender provides the borrower with an amount of funds that must be repaid by making the same payment every period, consisting of part of the principal and interest for a set number of years.",
+"tagString": "interest-rates"
+},
+{
+"word": "Indexed bonds",
+"definition": "Bonds whose interest and principal payments are adjusted for changes in the price level and whose interest rates thus provides a direct measure of a real interest rate.",
+"tagString": "interest-rates"
+},
+{
+"word": "Interest rate",
+"definition": "The cost of borrowing or the price paid for the rental of funds, usually expressed as a percentage per year.",
+"tagString": "financial-markets,financial-institutions"
+},
+{
+"word": "Interest-rate risk",
+"definition": "The possible reduction in returns that is associated with changes in interest rates.",
+"tagString": "interest-rates"
+},
+{
+"word": "Intermediate term",
+"definition": "With reference to a debt instrument, having a maturity of between 1 and 10 years.",
+"tagString": "financial-systems"
+},
+{
+"word": "Investment bank",
+"definition": "Firms that assist in the initial sale of securities in the primary market.",
+"tagString": "financial-systems"
+},
+{
+"word": "Liabilities",
+"definition": "IOU or debts.",
+"tagString": "financial-systems"
+},
+{
+"word": "Liquid",
+"definition": ": Easily converted into cash.",
+"tagString": "financial-systems"
+},
+{
+"word": "Liquidity services",
+"definition": ": Services that make it easier for customers to conduct transactions.",
+"tagString": "financial-systems"
+},
+{
+"word": "Long-term",
+"definition": "With reference to a debt instrument, having a maturity of 10 years or more.",
+"tagString": "financial-systems"
+},
+{
+"word": "Maturity",
+"definition": "Time to the expiration date (maturity date) of a debt instrument.",
+"tagString": "financial-systems"
+},
+{
+"word": "Monetary policy",
+"definition": "The management of the money supply and interest rates.",
+"tagString": "financial-markets,financial-institutions"
+},
+{
+"word": "Money market",
+"definition": "a financial market in which only short-term debt instruments (maturity less than one year) are traded.",
+"tagString": "financial-systems"
+},
+{
+"word": "Money",
+"definition": "Anything that is generally accepted in payment for goods or services in the repayment of debts. A.k.a. money supply.",
+"tagString": "financial-markets,financial-institutions"
+},
+{
+"word": "Moral hazard",
+"definition": "The risk that one party to a transaction will engage in behavior that is undesirable from the other party’s point of view.",
+"tagString": "financial-systems"
+},
+{
+"word": "Nominal interest rate",
+"definition": "An interest rate that is not adjusted for inflation.",
+"tagString": "interest-rates"
+},
+{
+"word": "Over-the-counter market",
+"definition": "A secondary market in which dealers at different locations who have an inventory of securities stand ready to buy and sell securities to anyone who comes to them is willing to accept their prices. A.k.a OTC market.",
+"tagString": "financial-systems"
+},
+{
+"word": "Perpetuity",
+"definition": "A perpetual bond with no maturity date and no repayment of principal that makes periodic fixed payments forever.",
+"tagString": "interest-rates"
+},
+{
+"word": "Portfolio",
+"definition": ": A collection of assets.",
+"tagString": "financial-systems"
+},
+{
+"word": "Present value",
+"definition": "a.k.a present discounted value. Today's value of a payment to be received in the future when the interest rate is _i_.",
+"tagString": "interest-rates"
+},
+{
+"word": "Primary market",
+"definition": "A financial market in which new issues of a security, such as a bond or stock, are sold to initial buyers by the corporation or government agency borrowing the fund.",
+"tagString": "financial-systems"
+},
+{
+"word": "Rate of capital gain",
+"definition": "The change in a security's price relative to the initial purchase price.",
+"tagString": "interest-rates"
+},
+{
+"word": "Real interest rate",
+"definition": "The interest rate adjusted for expected changes in the price level (inflation) so that it more accurately reflects the true cost of borrowing. A.k.a ex ante real interest rate.",
+"tagString": "interest-rates"
+},
+{
+"word": "Real terms",
+"definition": "Terms reflecting actual goods and services one can buy.",
+"tagString": "interest-rates"
+},
+{
+"word": "Reinvestment risk",
+"definition": "The interest-rate risk associated with the fact that the proceeds of short-term investments must be reinvested at a future interest rate that is uncertain.",
+"tagString": "interest-rates"
+},
+{
+"word": "Residual claimant",
+"definition": "The corporation must pay all its debt holders before it pays its equity holders.",
+"tagString": "financial-systems"
+},
+{
+"word": "Return",
+"definition": "The payments to the owner of a security plus the change in the security's value, expressed as a fraction of its purchase price; more precisely called the _rate of return_.",
+"tagString": "interest-rates"
+},
+{
+"word": "Risk sharing",
+"definition": "The process by which financial intermediaries create and sell assets with risk characteristics that people are comfortable with, and then use the funds they acquire by selling these assets to purchase other assets that may have far more risk. A.k.a Asset Transformation.",
+"tagString": "financial-systems"
+},
+{
+"word": "Risk",
+"definition": "The degree of uncertainty associated with the return of an asset.",
+"tagString": "financial-systems"
+},
+{
+"word": "Secondary market",
+"definition": "A financial market in which securities that have previously been issued can be resold.",
+"tagString": "financial-systems"
+},
+{
+"word": "Security",
+"definition": "A claim on the borrower’s future income that is sold by the borrower to the lender. Also called a financial instrument.",
+"tagString": "financial-markets,financial-institutions"
+},
+{
+"word": "Short-term",
+"definition": "With reference to a debt instrument, having a maturity of one year or less.",
+"tagString": "financial-systems"
+},
+{
+"word": "Simple interest rate",
+"definition": "the interest payment divided by the amount of the loan is a natural and sensible way to measure the interest rate.",
+"tagString": "interest-rates"
+},
+{
+"word": "Simple loan",
+"definition": "A credit market instrument providing the borrow with an amount of funds that must be repaid to the lender at the maturity date along with an additional payment (interest).",
+"tagString": "interest-rates"
+},
+{
+"word": "Stock",
+"definition": "a security that is a claim on the earnings and assets of a corporation.",
+"tagString": "financial-markets,financial-institutions"
+},
+{
+"word": "Thrift institution",
+"definition": "Savings and loan associations, mutual savings banks, and credit unions.",
+"tagString": "financial-systems"
+},
+{
+"word": "Transaction costs",
+"definition": "The time and money spent trying to exchange financial assets, goods, or services.",
+"tagString": "financial-systems"
+},
+{
+"word": "Underwriting",
+"definition": "Guaranteeing prices on securities to corporations and then selling the securities to the public.",
+"tagString": "financial-systems"
+},
+{
+"word": "Yield to maturity",
+"definition": "The interest rate that equates the present value of payments received from a credit market instrument with its value today.",
+"tagString": "interest-rates"
+}
+]

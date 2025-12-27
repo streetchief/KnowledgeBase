@@ -1,0 +1,21 @@
+aside ul#tag-list {
+    float: left;
+    list-style: none;
+    padding-left: 0;
+    li {
+        padding: 5px;
+    }
+}
+
+.search-container {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tag-words {
+    display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 80vh;
+}

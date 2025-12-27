@@ -1,0 +1,15 @@
+button {
+    margin: 6px;
+    padding: 4px;
+}
+
+button.link-style {
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+}
