@@ -5,4 +5,11 @@
 set -euo pipefail
 IFS=$'\n\t'
 
-echo "foo"
+# filePath=$(readlink -f $0)
+# dirName=$(dirname "${filePath}")
+# fileName=$(basename "$filePath")
+# presentDir=$(pwd)
+
+echo "Starting..."
+
+echo "Done!"
