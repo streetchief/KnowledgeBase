@@ -11,18 +11,18 @@ const searchInput = document.getElementById('word-input')
 const suggestions = document.getElementById('suggestions')
 const tagWordsContainer = document.getElementById('tag-words')
 const wordListContainer = document.getElementById('word-list')
+const wordFilter = document.getElementById('word-filter');
 
 //#endregion
 
 //#region setup
-const allTag = 'all'
+const asButtons = 'as-buttons'
 const listAllTag = 'list-all'
 const tagProp = 'data-tag'
 const definitionIndex = new Map()
 
 /** @type {Map<string, string[]} */
 const tagsIndex = new Map()
-let selectedTag;
 
 for (const { word, definition, tagString } of jsonArray) {
     definitionIndex.set(word, definition)
@@ -39,15 +39,44 @@ for (const { word, definition, tagString } of jsonArray) {
     addSuggestion(word)
 }
 
-addTagToSidebar(allTag)
+addTagToSidebar(asButtons)
 addTagToSidebar(listAllTag)
-tagsIndex.forEach((word, tag) => addTagToSidebar(tag))
+tagsIndex.forEach((_word, tag) => addTagToSidebar(tag))
 clearWordSelectionButton.addEventListener('click', clearMain)
 searchInput.addEventListener('keydown', handleSubmit)
+wordFilter.addEventListener('input', handleFilterChange)
+addAllWords()
 
 //#endregion
 
 //#region methods
+function addAllWords() {
+    addWordsAsList(getAllWords())
+}
+
+function handleFilterChange(event) {
+    const search = event.target.value;
+    const length = search.length;
+
+    clearWordList();
+
+    if (length === 0) {
+        addAllWords()
+        return
+    }
+
+    const normalized = search.toLowerCase();
+    const includesNormalized = term => term.toLowerCase().includes(normalized)
+    const wordsToAdd = [];
+
+    for (const [word, def] of definitionIndex.entries()) {
+        if (includesNormalized(def) || includesNormalized(word)) {
+            wordsToAdd.push(word)
+        }
+    }
+
+    addWordsAsList(wordsToAdd)
+}
 
 function handleSubmit(event) {
     if (event.key !== 'Enter') return;
@@ -70,7 +99,7 @@ function addTagToSidebar(tag) {
     sidebar.appendChild(listItem)
 }
 
-function getWordsForAllTag() {
+function getAllWords() {
     return Array.from(definitionIndex.keys()).flat().sort();
 }
 
@@ -104,19 +133,18 @@ function addWordsAsList(words) {
 
 function handleTagClick(tag) {
     clearMain()
-    selectedTag = tag;
     let wordsForTag;
 
-    if (tag === allTag || tag === listAllTag) {
-        wordsForTag = getWordsForAllTag()
+    if (tag === asButtons || tag === listAllTag) {
+        wordsForTag = getAllWords()
     } else {
         wordsForTag = tagsIndex.get(tag);
     }
 
-    if (tag === listAllTag) {
-        addWordsAsList(wordsForTag)
-    } else {
+    if (tag === asButtons) {
         addWordsAsButtons(wordsForTag)
+    } else {
+        addWordsAsList(wordsForTag)
     }
 }
 
@@ -140,6 +168,7 @@ function clearMain(_event) {
     clearSearch();
     clearTagWordsContainer();
     clearWordList()
+    clearWordFilter()
 }
 
 function clearWordBlock() {
@@ -156,6 +185,10 @@ function clearSearch() {
 
 function clearWordList() {
     clearContainer(wordListContainer)
+}
+
+function clearWordFilter() {
+    wordFilter.value = ''
 }
 
 function clearTagWordsContainer() {
