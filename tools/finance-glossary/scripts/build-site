@@ -13,7 +13,6 @@ glossarySource="$presentDir/build/glossary.json"
 if [[ ! -f "$glossarySource" ]]; then
     echo "No glossary json found!"
     "$presentDir/tools/finance-glossary-build" json
-    exit 1
 else
     echo glossary found
 fi
