@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finance Glossary</title>
+    <meta name="description" content="description"/>
+    <meta name="author" content="Sam Leavin" />
+    <meta name="keywords" content="finance,glossary" />
+    <meta http-equiv="Content-Security-Policy" content="
+        script-src 'self';
+    ">
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
+  </head>
+  <body>
+    <h1>Finance Glossary</h1>
+    <aside>
+      <ul id="word-list"></ul>
+    </aside>
+    <main>
+      <label for="word-input">Seach:&nbsp;</label>
+      <input 
+        id="word-input"
+        name="word-input" 
+        type="search" 
+        list="suggestions"
+      />
+      <p id="word"></p>
+      <p id="definition"></p>
+      <p id="tag-words"></p>
+      <button id="clear-word">Clear</button>
+      <datalist id="suggestions"></datalist>
+    </main>
+    <script type="module" src="./main.mjs"></script>
+  </body>
+</html>

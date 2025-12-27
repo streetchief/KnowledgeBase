@@ -1,9 +1,13 @@
 import { readdir } from "node:fs/promises";
-const files = await readdir('../knowledge');
+
+const files = await readdir('./knowledge', { withFileTypes: true });
 let maxLength = 0;
 
-const categories = files.reduce((store, name) => {
-    if (name === 'README.md') return store
+const categories = files.reduce((store, entry) => {
+    const { name } = entry
+    const isReadme = name === 'README.md';
+    const isDirectory = entry.isDirectory()
+    if (isReadme || isDirectory) return store
 
     const category = name.split('-')?.[0]
     maxLength = Math.max(maxLength, category.length)
@@ -17,9 +21,9 @@ const categories = files.reduce((store, name) => {
 }, new Map());
 
 console.log(
-`Categories
+    `Categories
 ${''.padStart(maxLength, '-')}
 ${Array.from(categories.values())
-    .sort()
-    .join('\n')}
+        .sort()
+        .join('\n')}
 `)

@@ -5,4 +5,7 @@
 set -euo pipefail
 IFS=$'\n\t'
 
-echo "foo"
+echo "Starting..."
+pwd=$(pwd)
+npx serve "$pwd/build/finance-glossary"
+echo "Done!"

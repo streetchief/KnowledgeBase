@@ -1,0 +1,97 @@
+#!/bin/bash
+set -euo pipefail
+IFS=$'\n\t'
+
+append_to_markdown () {
+    cat "$file" \
+    | awk '
+        /^# / {
+            word = substr($0, 3)
+        }
+        /^## Def/ {
+            while (getline && $0 == "") {}
+            def = $0
+        }
+        END {
+            print word ": " def "\n"
+        }
+    ' >> "$targetFile"
+}
+
+append_to_json () {
+    cat "$file" \
+    | awk '
+        /^# / {
+            word = substr($0, 3)
+        }
+        /^## Def/ {
+            while (getline && $0 == "") {}
+            # Escape double quotes
+            gsub(/"/, "\\\"", $0)
+            # Escape latex sentinels
+            gsub(/\\/, "\\\\", $0)
+            def = $0
+        }
+        /^## Tags/ {
+            while (getline && $0 == "") {}
+            tags = $0
+        }
+        END {
+            print "{"
+            print "\"word\": \"" word "\","
+            print "\"definition\": \"" def "\","
+            print "\"tagString\": \"" tags "\""
+            print "},"
+        }
+    ' >> "$targetJSON"
+}
+
+glossaryDir="/knowledge/finance-glossary"
+rootDir="$(pwd)"
+sourceDir="$rootDir$glossaryDir"
+buildDir="$rootDir/build"
+targetFilename="glossary.md"
+targetFile="$buildDir/$targetFilename"
+targetJsonName="glossary.json"
+targetJSON="$buildDir/$targetJsonName"
+
+echo "Building $1 glossary..."
+
+# Markdown generation
+
+if [[ "$1" == "md" ]]; then
+    if [[  -f "$targetFile" ]]; then
+        echo "Clearing existing glossary..."
+        truncate --size=0 "$targetFile"
+    fi
+
+    for file in "$sourceDir"/*; do
+        append_to_markdown
+    done
+fi;
+
+# JSON generation
+
+if [[ "$1" == "json" ]]; then
+    if [[ -f "$targetJSON" ]]; then
+        echo "Clearing existing json..."
+        truncate --size=0 "$targetJSON"
+    fi
+
+    echo "[" > "$targetJSON"
+
+    for file in "$sourceDir"/*; do
+        append_to_json
+    done
+
+    # This is based on bytes and probably fails on windows due to line end difference.
+    # Delete 1 byte for newline and 1 for trailing comma.
+    truncate --size=-2 "$targetJSON"
+
+    {
+        echo ""
+        echo "]"
+    } >> "$targetJSON"
+fi
+
+echo "Done!"
