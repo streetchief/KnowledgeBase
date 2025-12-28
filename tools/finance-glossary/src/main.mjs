@@ -51,14 +51,18 @@ addAllWords()
 //#endregion
 
 //#region methods
-function addAllWords() {
+function setSelectedTag(tag) {
     for (const button of tagListButtons()) {
-        if (button.innerText === listAllTag) {
+        if (button[tagProp] === tag) {
             button.classList.add(selectedTagClass)
-            break;
+        } else if (button.classList.contains(selectedTagClass)) {
+            button.classList.remove(selectedTagClass)
         }
     }
+}
 
+function addAllWords() {
+    setSelectedTag(listAllTag)
     addWordsAsList(getAllWords())
 }
 
@@ -140,15 +144,7 @@ function handleTagClick(event) {
     const selectedButton = event.target
     selectedButton.classList.add(selectedTagClass)
     const selectedTag = selectedButton[tagProp];
-
-    for (const button of tagListButtons()) {
-        if (
-            button[tagProp] !== selectedTag
-            && button.classList.contains(selectedTagClass)
-        ) {
-            button.classList.remove(selectedTagClass)
-        }
-    }
+    setSelectedTag(selectedTag)
 
     let wordsForTag;
 
