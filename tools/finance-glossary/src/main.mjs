@@ -4,6 +4,7 @@ import jsonArray from './glossary.json' with { type: 'json'};
 //#region HTMLElements
 
 const tagList = document.querySelector('aside ul#tag-list')
+const tagListButtons = () => tagList.querySelectorAll('button')
 const wordBlock = document.getElementById('word')
 const definitionBlock = document.getElementById('definition')
 const clearWordSelectionButton = document.getElementById('clear-word')
@@ -47,11 +48,17 @@ clearWordSelectionButton.addEventListener('click', clearMain)
 searchInput.addEventListener('keydown', handleSubmit)
 wordFilter.addEventListener('input', handleFilterChange)
 addAllWords()
-
 //#endregion
 
 //#region methods
 function addAllWords() {
+    for (const button of tagListButtons()) {
+        if (button.innerText === listAllTag) {
+            button.classList.add(selectedTagClass)
+            break;
+        }
+    }
+
     addWordsAsList(getAllWords())
 }
 
@@ -134,16 +141,14 @@ function handleTagClick(event) {
     selectedButton.classList.add(selectedTagClass)
     const selectedTag = selectedButton[tagProp];
 
-    Array.from(tagList.children).forEach(listItem => {
-        const button = listItem.children[0];
-
+    for (const button of tagListButtons()) {
         if (
             button[tagProp] !== selectedTag
             && button.classList.contains(selectedTagClass)
         ) {
             button.classList.remove(selectedTagClass)
         }
-    });
+    }
 
     let wordsForTag;
 
@@ -208,9 +213,7 @@ function clearTagWordsContainer() {
 }
 
 function getSelectedTag() {
-    for (const child of tagList.children) {
-        const button = child.getElementsByTagName('button')[0];
-
+    for (const button of tagListButtons()) {
         if (button.classList.contains(selectedTagClass)) {
             return button[tagProp]
         }
