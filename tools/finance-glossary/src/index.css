@@ -1,4 +1,4 @@
-aside ul#tag-list {
+aside ul.tag-list {
     float: left;
     list-style: none;
     padding-left: 0;
@@ -18,4 +18,9 @@ aside ul#tag-list {
   flex-direction: column;
   flex-wrap: wrap;
   max-height: 80vh;
+}
+
+button.selected-tag {
+  border: 1px solid green;
+  border-radius: 4px;
 }

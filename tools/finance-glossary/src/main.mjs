@@ -3,7 +3,7 @@ import jsonArray from './glossary.json' with { type: 'json'};
 
 //#region HTMLElements
 
-const sidebar = document.querySelector('aside ul#tag-list')
+const tagList = document.querySelector('aside ul#tag-list')
 const wordBlock = document.getElementById('word')
 const definitionBlock = document.getElementById('definition')
 const clearWordSelectionButton = document.getElementById('clear-word')
@@ -16,9 +16,10 @@ const wordFilter = document.getElementById('word-filter');
 //#endregion
 
 //#region setup
+const selectedTagClass = 'selected-tag'
 const asButtons = 'as-buttons'
 const listAllTag = 'list-all'
-const tagProp = 'data-tag'
+const tagProp = 'innerText'; // 'data-tag'
 const definitionIndex = new Map()
 
 /** @type {Map<string, string[]} */
@@ -36,7 +37,7 @@ for (const { word, definition, tagString } of jsonArray) {
         wordsForTag.push(word)
     })
 
-    addSuggestion(word)
+    addSearchSuggestion(word)
 }
 
 addTagToSidebar(asButtons)
@@ -90,13 +91,9 @@ function addTagToSidebar(tag) {
     const button = document.createElement('button')
     button.innerText = tag
     button.classList.add('link-style')
-    button.addEventListener('click', (event) => {
-        const tag = event.target.innerText;
-        handleTagClick(tag)
-    })
-
+    button.addEventListener('click', handleTagClick)
     listItem.appendChild(button)
-    sidebar.appendChild(listItem)
+    tagList.appendChild(listItem)
 }
 
 function getAllWords() {
@@ -131,24 +128,39 @@ function addWordsAsList(words) {
     })
 }
 
-function handleTagClick(tag) {
+function handleTagClick(event) {
     clearMain()
+    const selectedButton = event.target
+    selectedButton.classList.add(selectedTagClass)
+    const selectedTag = selectedButton[tagProp];
+
+    Array.from(tagList.children).forEach(listItem => {
+        const button = listItem.children[0];
+
+        if (
+            button[tagProp] !== selectedTag
+            && button.classList.contains(selectedTagClass)
+        ) {
+            button.classList.remove(selectedTagClass)
+        }
+    });
+
     let wordsForTag;
 
-    if (tag === asButtons || tag === listAllTag) {
+    if (selectedTag === asButtons || selectedTag === listAllTag) {
         wordsForTag = getAllWords()
     } else {
-        wordsForTag = tagsIndex.get(tag);
+        wordsForTag = tagsIndex.get(selectedTag);
     }
 
-    if (tag === asButtons) {
+    if (selectedTag === asButtons) {
         addWordsAsButtons(wordsForTag)
     } else {
         addWordsAsList(wordsForTag)
     }
 }
 
-function addSuggestion(word) {
+function addSearchSuggestion(word) {
     const option = document.createElement('option')
     option.innerText = word;
     option.setAttribute('value', word)
@@ -193,6 +205,16 @@ function clearWordFilter() {
 
 function clearTagWordsContainer() {
     clearContainer(tagWordsContainer)
+}
+
+function getSelectedTag() {
+    for (const child of tagList.children) {
+        const button = child.getElementsByTagName('button')[0];
+
+        if (button.classList.contains(selectedTagClass)) {
+            return button[tagProp]
+        }
+    }
 }
 
 //#endregion
