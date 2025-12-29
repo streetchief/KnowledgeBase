@@ -1,26 +1,30 @@
-aside ul.tag-list {
-    float: left;
+aside {
+  float: left;
+
+  .tag-list {
     list-style: none;
     padding-left: 0;
+
     li {
-        padding: 5px;
+      padding: 5px;
     }
+  }
 }
 
 .search-container {
-    display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .tag-words {
-    display: flex;
+  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   max-height: 80vh;
 }
 
 button.selected-tag {
-  border: 1px solid green;
+  border: 1px solid var(--color-highlight);
   border-radius: 4px;
 }

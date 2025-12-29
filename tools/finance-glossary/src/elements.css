@@ -1,4 +1,14 @@
+:root {
+  --color-text: #ddd;
+  --color-background: black;
+  --color-highlight: red;
+
+  color: var(--color-text);
+  background-color: var(--color-background);
+}
+
 button {
+    color:  var(--color-text);
     margin: 6px;
     padding: 4px;
 }
