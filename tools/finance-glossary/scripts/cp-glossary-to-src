@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+# Unofficial bash strict mode
+# For more info, see: http://redsymbol.net/articles/unofficial-bash-strict-mode/
+set -euo pipefail
+IFS=$'\n\t'
+
+# filePath=$(readlink -f $0)
+# dirName=$(dirname "${filePath}")
+# fileName=$(basename "$filePath")
+presentDir=$(pwd)
+siteSource="$presentDir/tools/finance-glossary/src"
+buildTarget="$presentDir/build/finance-glossary/glossary.json"
+
+echo "Starting glossary json grab..."
+
+cp --update --target-directory="$siteSource" "$buildTarget"
+
+echo "Done!"

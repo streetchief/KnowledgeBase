@@ -14,7 +14,7 @@ if [[ ! -f "$glossarySource" ]]; then
     echo "No glossary json found!"
     "$presentDir/tools/finance-glossary-build" json
 else
-    echo glossary found
+    echo "Glossary found"
 fi
 
 siteSource="$presentDir/tools/finance-glossary/src"
@@ -29,3 +29,5 @@ cp --update --target-directory="$buildTarget" "$siteSource"/*
 cp --update --target-directory="$buildTarget" "$glossarySource"
 cp --update --target-directory="$buildTarget" "$presentDir/tools/finance-glossary/scripts/start"
 chmod u+x "$presentDir/tools/finance-glossary/scripts/start"
+
+echo "Done!"
