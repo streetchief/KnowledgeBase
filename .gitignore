@@ -1,6 +1,7 @@
 # Constructed files
 build/*
 !build/.gitkeep
+tools/finance-glossary/src/glossary.json
 
 # Logs
 logs
