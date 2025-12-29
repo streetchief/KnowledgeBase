@@ -8,7 +8,7 @@ append_to_markdown () {
         /^# / {
             word = substr($0, 3)
         }
-        /^## Def/ {
+        /^## Definition/ {
             while (getline && $0 == "") {}
             def = $0
         }
@@ -24,12 +24,12 @@ append_to_json () {
         /^# / {
             word = substr($0, 3)
         }
-        /^## Def/ {
+        /^## Definition/ {
             while (getline && $0 == "") {}
-            # Escape double quotes
-            gsub(/"/, "\\\"", $0)
             # Escape latex sentinels
             gsub(/\\/, "\\\\", $0)
+            # Escape double quotes
+            gsub(/"/, "\\\"", $0)
             def = $0
         }
         /^## Tags/ {
