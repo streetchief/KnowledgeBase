@@ -3,5 +3,7 @@
 ## Definition
 Foreign currencies deposited in banks outside the home country.
 
+## Notes
+
 ## Tags
-financial-systems
+chapter-2,financial-systems

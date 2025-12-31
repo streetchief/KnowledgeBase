@@ -3,5 +3,7 @@
 ## Definition
 The time and money spent trying to exchange financial assets, goods, or services.
 
+## Notes
+
 ## Tags
-financial-systems
+chapter-2,financial-systems

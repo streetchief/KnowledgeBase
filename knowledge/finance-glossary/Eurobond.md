@@ -3,5 +3,7 @@
 ## Definition
 Bonds denominated in a currency other than that of the country in which they are sold.
 
+## Notes
+
 ## Tags
-financial-systems
+chapter-2,financial-systems

@@ -1,7 +1,9 @@
 # Foreign bonds
 
 ## Definition
-Bonds sold in a foreign country and denominated in that country’s currency.
+Bonds sold in a foreign country and denominated in that country's currency.
+
+## Notes
 
 ## Tags
-financial-systems
+chapter-2,financial-systems
