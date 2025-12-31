@@ -7,5 +7,5 @@ IFS=$'\n\t'
 
 echo "Starting..."
 pwd=$(pwd)
-npx serve "$pwd/build/finance-glossary"
+npx serve "$pwd/tools/finance-glossary/src"
 echo "Done!"
