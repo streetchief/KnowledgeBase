@@ -43,23 +43,21 @@ append_to_json () {
             print "\"tagString\": \"" tags "\""
             print "},"
         }
-    ' >> "$targetJSON"
+    ' >> "$targetFile"
 }
 
 glossaryDir="/knowledge/finance-glossary"
 rootDir="$(pwd)"
 sourceDir="$rootDir$glossaryDir"
 buildDir="$rootDir/build"
-targetFilename="glossary.md"
+buildType=${1:-"json"}
+targetFilename="glossary.$buildType"
 targetFile="$buildDir/$targetFilename"
-targetJsonName="glossary.json"
-targetJSON="$buildDir/$targetJsonName"
-
-echo "Building $1 glossary..."
+echo "Building $buildType glossary..."
 
 # Markdown generation
 
-if [[ "$1" == "md" ]]; then
+if [[ "$buildType" == "md" ]]; then
     if [[  -f "$targetFile" ]]; then
         echo "Clearing existing glossary..."
         truncate --size=0 "$targetFile"
@@ -72,13 +70,13 @@ fi;
 
 # JSON generation
 
-if [[ "$1" == "json" ]]; then
-    if [[ -f "$targetJSON" ]]; then
+if [[ "$buildType" == "json" ]]; then
+    if [[ -f "$targetFile" ]]; then
         echo "Clearing existing json..."
-        truncate --size=0 "$targetJSON"
+        truncate --size=0 "$targetFile"
     fi
 
-    echo "[" > "$targetJSON"
+    echo "[" > "$targetFile"
 
     for file in "$sourceDir"/*; do
         append_to_json
@@ -86,12 +84,12 @@ if [[ "$1" == "json" ]]; then
 
     # This is based on bytes and probably fails on windows due to line end difference.
     # Delete 1 byte for newline and 1 for trailing comma.
-    truncate --size=-2 "$targetJSON"
+    truncate --size=-2 "$targetFile"
 
     {
         echo ""
         echo "]"
-    } >> "$targetJSON"
+    } >> "$targetFile"
 fi
 
 echo "Done!"
