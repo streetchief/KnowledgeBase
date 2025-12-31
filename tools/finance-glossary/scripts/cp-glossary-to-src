@@ -5,9 +5,6 @@
 set -euo pipefail
 IFS=$'\n\t'
 
-# filePath=$(readlink -f $0)
-# dirName=$(dirname "${filePath}")
-# fileName=$(basename "$filePath")
 presentDir=$(pwd)
 siteSource="$presentDir/tools/finance-glossary/src"
 buildTarget="$presentDir/build/finance-glossary/glossary.json"
