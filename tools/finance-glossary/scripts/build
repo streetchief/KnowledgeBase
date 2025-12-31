@@ -26,7 +26,7 @@ append_to_json () {
         }
         /^## Definition/ {
             while (getline && $0 == "") {}
-            # Escape latex sentinels
+            # Escape latex sentinels - must come first to avoid catching quote escapes
             gsub(/\\/, "\\\\", $0)
             # Escape double quotes
             gsub(/"/, "\\\"", $0)
