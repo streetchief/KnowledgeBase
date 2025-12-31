@@ -6,4 +6,4 @@ Market where extremely large transactions occur, as for money market funds or fo
 ## Notes
 
 ## Tags
-chapter-11,,financial-markets,money-markets
+chapter-11,financial-markets,money-markets

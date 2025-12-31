@@ -6,4 +6,4 @@ An issuer's bypassing the dealer and selling the security directly to the invest
 ## Notes
 
 ## Tags
-chapter-11,,financial-markets,money-markets
+chapter-11,financial-markets,money-markets

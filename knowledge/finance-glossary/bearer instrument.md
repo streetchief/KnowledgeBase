@@ -6,4 +6,4 @@ A security payable to the holder or “bearer” when presented. No proof of own
 ## Notes
 
 ## Tags
-chapter-11,,financial-markets,money-markets
+chapter-11,financial-markets,money-markets

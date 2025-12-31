@@ -6,4 +6,4 @@ Offering to buy Treasury securities without specifying a price; the securities a
 ## Notes
 
 ## Tags
-chapter-11,,financial-markets,money-markets
+chapter-11,financial-markets,money-markets

@@ -6,4 +6,4 @@ A market in which securities can be bought and sold quickly and with low transac
 ## Notes
 
 ## Tags
-chapter-11,,financial-markets,money-markets
+chapter-11,financial-markets,money-markets

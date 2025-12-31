@@ -6,4 +6,4 @@ A system of tracking securities ownership where no certificate is issued. Instea
 ## Notes
 
 ## Tags
-chapter-11,,financial-markets,money-markets
+chapter-11,financial-markets,money-markets

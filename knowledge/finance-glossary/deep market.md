@@ -6,4 +6,4 @@ Markets in which there are many participants and a great deal of activity, thus 
 ## Notes
 
 ## Tags
-chapter-11,,financial-markets,money-markets
+chapter-11,financial-markets,money-markets

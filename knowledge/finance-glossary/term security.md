@@ -6,4 +6,4 @@ A security with a specified maturity date.
 ## Notes
 
 ## Tags
-chapter-11,,financial-markets,money-markets
+chapter-11,financial-markets,money-markets

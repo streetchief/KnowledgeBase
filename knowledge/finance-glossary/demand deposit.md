@@ -6,4 +6,4 @@ A deposit held by a bank that must be paid to the depositor on demand. Demand de
 ## Notes
 
 ## Tags
-chapter-11,,financial-markets,money-markets
+chapter-11,financial-markets,money-markets
