@@ -3,6 +3,9 @@ build/*
 !build/.gitkeep
 tools/finance-glossary/src/glossary.json
 
+# directory for us devs to keep randoms stuff in
+temp-dev/
+
 # Logs
 logs
 *.log
@@ -51,5 +54,3 @@ jspm_packages/
 # Yarn Integrity file
 .yarn-integrity
 
-# directory for us devs to keep randoms stuff in
-temp-dev/
