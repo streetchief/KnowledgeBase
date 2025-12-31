@@ -7,7 +7,7 @@ IFS=$'\n\t'
 
 presentDir=$(pwd)
 siteSource="$presentDir/tools/finance-glossary/src"
-buildTarget="$presentDir/build/finance-glossary/glossary.json"
+buildTarget="$presentDir/build/glossary.json"
 
 echo "Starting glossary json grab..."
 
