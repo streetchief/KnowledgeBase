@@ -18,34 +18,6 @@ append_to_markdown () {
     ' >> "$targetFile"
 }
 
-append_to_json () {
-    cat "$file" \
-    | awk '
-        /^# / {
-            word = substr($0, 3)
-        }
-        /^## Definition/ {
-            while (getline && $0 == "") {}
-            # Escape latex sentinels - must come first to avoid catching quote escapes
-            gsub(/\\/, "\\\\", $0)
-            # Escape double quotes
-            gsub(/"/, "\\\"", $0)
-            def = $0
-        }
-        /^## Tags/ {
-            while (getline && $0 == "") {}
-            tags = $0
-        }
-        END {
-            print "{"
-            print "\"word\": \"" word "\","
-            print "\"definition\": \"" def "\","
-            print "\"tagString\": \"" tags "\""
-            print "},"
-        }
-    ' >> "$targetFile"
-}
-
 glossaryDir="/knowledge/finance-glossary"
 rootDir="$(pwd)"
 sourceDir="$rootDir$glossaryDir"
@@ -53,6 +25,7 @@ buildDir="$rootDir/build"
 buildType=${1:-"json"}
 targetFilename="glossary.$buildType"
 targetFile="$buildDir/$targetFilename"
+
 echo "Building $buildType glossary..."
 
 if [[  -f "$targetFile" ]]; then
@@ -79,7 +52,7 @@ if [[ "$buildType" == "json" ]]; then
     echo "[" > "$targetFile"
 
     for file in "$sourceDir"/*; do
-        append_to_json
+        cat "$file" | "./tools/finance-glossary/scripts/md-to-json" >> "$targetFile"
     done
 
     # This is based on bytes and probably fails on windows due to line end difference.
