@@ -21,10 +21,13 @@ const selectedTagClass = 'selected-tag'
 const asButtons = 'as-buttons'
 const listAllTag = 'list-all'
 const tagProp = 'innerText'; // 'data-tag'
+
+/** @type {Map<string, string>} */
 const definitionIndex = new Map()
 
-/** @type {Map<string, string[]} */
+/** @type {Map<string, string[]>} */
 const tagsIndex = new Map()
+const getTags = () => Array.from(tagsIndex.keys())
 
 for (const { word, definition, tagString } of jsonArray) {
     definitionIndex.set(word, definition)
@@ -43,14 +46,13 @@ for (const { word, definition, tagString } of jsonArray) {
 
 // addTagToSidebar(asButtons)
 addTagToSidebar(listAllTag)
-Array.from(tagsIndex
-    .keys())
+getTags()
     .sort()
     .forEach((tag) => addTagToSidebar(tag))
 clearWordSelectionButton.addEventListener('click', clearMain)
 searchInput.addEventListener('keydown', handleSubmit)
 wordFilter.addEventListener('input', handleFilterChange)
-addAllWords()
+addAllWordsToDocument()
 //#endregion
 
 //#region methods
@@ -64,7 +66,7 @@ function setSelectedTag(tag) {
     }
 }
 
-function addAllWords() {
+function addAllWordsToDocument() {
     setSelectedTag(listAllTag)
     addWordsAsList(getAllWords())
 }
@@ -76,7 +78,7 @@ function handleFilterChange(event) {
     clearWordList();
 
     if (length === 0) {
-        addAllWords()
+        addAllWordsToDocument()
         return
     }
 

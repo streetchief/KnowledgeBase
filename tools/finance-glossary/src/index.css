@@ -1,4 +1,5 @@
 aside {
+  margin-right: 10px;
   float: left;
   border-style: solid;
   border-color: var(--color-light);
