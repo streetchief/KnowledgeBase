@@ -21,8 +21,16 @@ BEGIN {
 }
 END {
     print "{"
-    print indent dQuote "word" dQuote ": " dQuote word dQuote ","
-    print indent dQuote "definition" dQuote ": " dQuote def dQuote ","
-    print indent dQuote "tagString" dQuote ": " dQuote tags dQuote
+    print print_json_key("word") double_quote(word) ","
+    print print_json_key("definition") double_quote(def) ","
+    print print_json_key("tagString") double_quote(tags)
     print "},"
+}
+
+function double_quote(text) {
+    return dQuote text dQuote
+}
+
+function print_json_key(key) {
+    return indent double_quote(key) ": "
 }
