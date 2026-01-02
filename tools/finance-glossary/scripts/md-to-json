@@ -1,0 +1,26 @@
+#!/usr/bin/awk -f
+BEGIN {
+    dQuote = "\""
+}
+/^# / {
+    word = substr($0, 3)
+}
+/^## Definition/ {
+    while (getline && $0 == "") {}
+    # Escape latex sentinels - must come first to avoid catching quote escapes
+    gsub(/\\/, "\\\\", $0)
+    # Escape double quotes
+    gsub(/"/, "\\\"", $0)
+    def = $0
+}
+/^## Tags/ {
+    while (getline && $0 == "") {}
+    tags = $0
+}
+END {
+    print "{"
+    print "\"word\": \"" word "\","
+    print "\"definition\": \"" def "\","
+    print "\"tagString\": \"" tags "\""
+    print "},"
+}
