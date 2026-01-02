@@ -28,7 +28,7 @@ const tagsIndex = new Map()
 
 for (const { word, definition, tagString } of jsonArray) {
     definitionIndex.set(word, definition)
-    const tags = tagString.split(',')
+    const tags = tagString.length > 0 ? tagString.split(',') : [];
     tags.forEach(tag => {
         if (!tagsIndex.has(tag)) {
             tagsIndex.set(tag, [])
@@ -41,9 +41,12 @@ for (const { word, definition, tagString } of jsonArray) {
     addSearchSuggestion(word)
 }
 
-addTagToSidebar(asButtons)
+// addTagToSidebar(asButtons)
 addTagToSidebar(listAllTag)
-tagsIndex.forEach((_word, tag) => addTagToSidebar(tag))
+Array.from(tagsIndex
+    .keys())
+    .sort()
+    .forEach((tag) => addTagToSidebar(tag))
 clearWordSelectionButton.addEventListener('click', clearMain)
 searchInput.addEventListener('keydown', handleSubmit)
 wordFilter.addEventListener('input', handleFilterChange)

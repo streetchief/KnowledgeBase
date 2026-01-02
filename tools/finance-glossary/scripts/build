@@ -58,7 +58,12 @@ echo "Building $buildType glossary..."
 if [[  -f "$targetFile" ]]; then
     echo "Clearing existing glossary..."
     truncate --size=0 "$targetFile"
+else 
+    echo "Creating glossary file..."
+    touch "$targetFile"
 fi
+
+echo "Appending data..."
 
 # Markdown generation
 

@@ -1,6 +1,9 @@
 :root {
-  --color-text: #ddd;
-  --color-background: black;
+  --color-light: #ddd;
+  --color-dark: black;
+  --color-text: var(--color-light);
+  --color-text-dark: var(--color-dark);
+  --color-background: var(--color-dark);
   --color-highlight: red;
 
   color: var(--color-text);
@@ -8,12 +11,14 @@
 }
 
 button {
-    color:  var(--color-text);
+    color:  var(--color-text-dark);
+
     margin: 6px;
     padding: 4px;
 }
 
 button.link-style {
+    color:  var(--color-text);
   background: none;
   border: none;
   cursor: pointer;
