@@ -6,6 +6,5 @@ set -euo pipefail
 IFS=$'\n\t'
 
 echo "Starting..."
-pwd=$(pwd)
-npx serve "$pwd/tools/finance-glossary/src"
+npx serve ./tools/finance-glossary/src
 echo "Done!"
