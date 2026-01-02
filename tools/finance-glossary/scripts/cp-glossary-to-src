@@ -5,9 +5,8 @@
 set -euo pipefail
 IFS=$'\n\t'
 
-presentDir=$(pwd)
-siteSource="$presentDir/tools/finance-glossary/src"
-buildTarget="$presentDir/build/glossary.json"
+siteSource="./tools/finance-glossary/src"
+buildTarget="./build/glossary.json"
 
 echo "Starting glossary json grab..."
 
