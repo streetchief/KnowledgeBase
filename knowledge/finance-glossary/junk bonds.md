@@ -1,9 +1,7 @@
 # junk bonds
 
 ## Definition
-Bonds rated lower than BBB by bond-rating agencies. Junk bonds are not investment grade and are considered speculative. They usually have a high yield to compensate investors for their high risk.
-
-## Notes
+Speculative; bonds below Moody’s Baa or Standard and Poor’s BBB rating are considered to be of junk grade.
 
 ## Tags
-
+chapter-12,bond-market,financial-markets

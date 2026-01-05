@@ -1,7 +1,7 @@
 # capital market
 
 ## Definition
-A financial market in which longer-term debt (maturity of greater than one year) and equity instruments are traded. 
+A financial market in which longer-term debt (maturity of greater than one year) and equity instruments are traded. Includes stocks, bonds, and mortgages.
 
 ## Notes
 
