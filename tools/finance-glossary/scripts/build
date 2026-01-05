@@ -52,7 +52,7 @@ if [[ "$buildType" == "json" ]]; then
     echo "[" > "$targetFile"
 
     for file in "$sourceDir"/*; do
-        cat "$file" | "./tools/finance-glossary/scripts/md-to-json" >> "$targetFile"
+        cat "$file" | "./tools/finance-glossary/scripts/md-to-json.awk" >> "$targetFile"
     done
 
     # This is based on bytes and probably fails on windows due to line end difference.

@@ -7,7 +7,7 @@ const tagList = document.querySelector('aside ul#tag-list')
 const tagListButtons = () => tagList.querySelectorAll('button')
 const wordBlock = document.getElementById('word')
 const definitionBlock = document.getElementById('definition')
-const clearWordSelectionButton = document.getElementById('clear-word')
+const clearWordSelectionButton = document.getElementById('reset-btn')
 const searchInput = document.getElementById('word-input')
 const suggestions = document.getElementById('suggestions')
 const tagWordsContainer = document.getElementById('tag-words')
@@ -20,14 +20,18 @@ const wordFilter = document.getElementById('word-filter');
 const selectedTagClass = 'selected-tag'
 const asButtons = 'as-buttons'
 const listAllTag = 'list-all'
-const tagProp = 'innerText'; // 'data-tag'
+const tagProp = 'innerText' // 'data-tag'
 
 /** @type {Map<string, string>} */
 const definitionIndex = new Map()
+const getAllWords = () => Array.from(definitionIndex.keys()).flat().sort()
 
 /** @type {Map<string, string[]>} */
 const tagsIndex = new Map()
 const getTags = () => Array.from(tagsIndex.keys())
+const getChapterTags = () => getTags().filter(tag => tag.startsWith('chapter'))
+const getChapterNumber = (tag) => Number(tag.split('-')[1])
+const getSortedChapterTags = () => getChapterTags().sort((a, b) => getChapterNumber(a) - getChapterNumber(b))
 
 for (const { word, definition, tagString } of jsonArray) {
     definitionIndex.set(word, definition)
@@ -44,15 +48,18 @@ for (const { word, definition, tagString } of jsonArray) {
     addSearchSuggestion(word)
 }
 
-// addTagToSidebar(asButtons)
-addTagToSidebar(listAllTag)
-getTags()
-    .sort()
-    .forEach((tag) => addTagToSidebar(tag))
-clearWordSelectionButton.addEventListener('click', clearMain)
+[listAllTag, ...getSortedChapterTags()].forEach((tag) => addTagToSidebar(tag))
+addAllWordsToDocument()
+
+const handleReset = (_event) => {
+    clearMain()
+    addAllWordsToDocument()
+};
+
+clearWordSelectionButton.addEventListener('click', handleReset)
 searchInput.addEventListener('keydown', handleSubmit)
 wordFilter.addEventListener('input', handleFilterChange)
-addAllWordsToDocument()
+
 //#endregion
 
 //#region methods
@@ -110,10 +117,6 @@ function addTagToSidebar(tag) {
     button.addEventListener('click', handleTagClick)
     listItem.appendChild(button)
     tagList.appendChild(listItem)
-}
-
-function getAllWords() {
-    return Array.from(definitionIndex.keys()).flat().sort();
 }
 
 function addWordsAsButtons(words) {

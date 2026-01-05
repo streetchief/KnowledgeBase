@@ -10,4 +10,4 @@ Needs a `glossary.json` added.
 }]
 ```
 
-Run with `npx serve ./someDir`
+Run with `npx serve ./someDir` or `./tools/finance-glossary/scripts/start` from the root folder.
