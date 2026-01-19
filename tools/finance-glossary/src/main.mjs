@@ -53,6 +53,7 @@ addAllWordsToDocument()
 
 const handleReset = (_event) => {
     clearMain()
+    wordFilter.focus()
     addAllWordsToDocument()
 };
 
